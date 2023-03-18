@@ -3,4 +3,4 @@
 
 ## Constants
 
-- [`i32.const`](./i32.const.md)
+- [`i32.const`](./i32.const)
