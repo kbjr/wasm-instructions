@@ -9,3 +9,7 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
 - [`i64.const`](./numeric/i64.const)
 - [`f32.const`](./numeric/f32.const)
 - [`f64.const`](./numeric/f64.const)
+
+## Memory
+
+- [`f64.const`](./memory/memory.grow)
