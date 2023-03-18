@@ -1,10 +1,11 @@
 
 # WASM Instructions
 
-## Numeric (i32, i64, f32, f64)
-  
-### Constants
+Download metadata for all instructions in either [JSON](./instructions?format=json) or [YAML](./instructions?format=yaml) formats.
+
+## Constants
 
 - [`i32.const`](./numeric/i32.const)
-
-## Vectors / SIMD
+- [`i64.const`](./numeric/i64.const)
+- [`f32.const`](./numeric/f32.const)
+- [`f64.const`](./numeric/f64.const)
