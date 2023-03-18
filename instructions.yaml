@@ -1,0 +1,8 @@
+instructions:
+- opcode: 0x41
+  name: i32.const
+  immediates:
+  - type: i32_const
+  params: [ ]
+  results:
+  - type: i32
