@@ -1,8 +1,64 @@
 instructions:
-- opcode: 0x41
-  name: i32.const
+
+# ===== Memory =====
+
+- name: memory.grow
+  opcode: 0x40
+  immediates: [ ]
+  params:
+  - type: i32
+    description: The number of 64KiB pages of memory to be requested
+  results:
+  - type: i32
+    description: The previous number of pages of memory allocated to the instances
+      before growing, or -1 if the operation failed
+
+
+
+
+# ===== Numeric Constants =====
+
+- name: i32.const
+  opcode: 0x41
+  description: Declares an i32 constant, placing it on the stack
   immediates:
   - type: i32_const
+    description: The constant value to be placed on the stack
   params: [ ]
   results:
   - type: i32
+    description: The provided constant value
+
+- name: i64.const
+  opcode: 0x42
+  description: Declares an i64 constant, placing it on the stack
+  immediates:
+  - type: i64_const
+    description: The constant value to be placed on the stack
+  params: [ ]
+  results:
+  - type: i64
+    description: The provided constant value
+
+- name: f32.const
+  opcode: 0x43
+  description: Declares an f32 constant, placing it on the stack
+  immediates:
+  - type: f32_const
+    description: The constant value to be placed on the stack
+  params: [ ]
+  results:
+  - type: f32
+    description: The provided constant value
+
+- name: f64.const
+  opcode: 0x44
+  description: Declares an f64 constant, placing it on the stack
+  immediates:
+  - type: f64_const
+    description: The constant value to be placed on the stack
+  params: [ ]
+  results:
+  - type: f64
+    description: The provided constant value
+
