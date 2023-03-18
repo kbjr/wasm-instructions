@@ -12,4 +12,4 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
 
 ## Memory
 
-- [`f64.const`](./memory/memory.grow)
+- [`memory.grow`](./memory/memory.grow)
