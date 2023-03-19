@@ -5,14 +5,14 @@ _todo_
 
 
 
-| Opcode | Signature |
-|--------|-----------|
-| `0x4A` | $i32.gt\_s \quad [ i32, i32 ] \to [ i32 ]$ |
-| `0x4B` | $i32.gt\_u \quad [ i32, i32 ] \to [ i32 ]$ |
-| `0x58` | $i64.gt\_s \quad [ i64, i64 ] \to [ i32 ]$ |
-| `0x59` | $i64.gt\_u \quad [ i64, i64 ] \to [ i32 ]$ |
-| `0x5E` | $f32.gt \quad [ f32, f32 ] \to [ i32 ]$ |
-| `0x64` | $f64.gt \quad [ f64, f64 ] \to [ i32 ]$ |
+| Opcode | Instruction | Signature |
+|--------|-------------|-----------|
+| `0x4A` | `i32.gt_s`  | $[ i32, i32 ] \to [ i32 ]$ |
+| `0x4B` | `i32.gt_u`  | $[ i32, i32 ] \to [ i32 ]$ |
+| `0x58` | `i64.gt_s`  | $[ i64, i64 ] \to [ i32 ]$ |
+| `0x59` | `i64.gt_u`  | $[ i64, i64 ] \to [ i32 ]$ |
+| `0x5E` | `f32.gt`    | $[ f32, f32 ] \to [ i32 ]$ |
+| `0x64` | `f64.gt`    | $[ f64, f64 ] \to [ i32 ]$ |
 
 
 

@@ -5,14 +5,14 @@ _todo_
 
 
 
-| Opcode | Signature |
-|--------|-----------|
-| `0x4E` | $i32.ge\_s \quad [ i32, i32 ] \to [ i32 ]$ |
-| `0x4F` | $i32.ge\_u \quad [ i32, i32 ] \to [ i32 ]$ |
-| `0x5C` | $i64.ge\_s \quad [ i64, i64 ] \to [ i32 ]$ |
-| `0x5D` | $i64.ge\_u \quad [ i64, i64 ] \to [ i32 ]$ |
-| `0x60` | $f32.ge \quad [ f32, f32 ] \to [ i32 ]$ |
-| `0x66` | $f64.ge \quad [ f64, f64 ] \to [ i32 ]$ |
+| Opcode | Instruction | Signature |
+|--------|-------------|-----------|
+| `0x4E` | `i32.ge_s`  | $[ i32, i32 ] \to [ i32 ]$ |
+| `0x4F` | `i32.ge_u`  | $[ i32, i32 ] \to [ i32 ]$ |
+| `0x5C` | `i64.ge_s`  | $[ i64, i64 ] \to [ i32 ]$ |
+| `0x5D` | `i64.ge_u`  | $[ i64, i64 ] \to [ i32 ]$ |
+| `0x60` | `f32.ge`    | $[ f32, f32 ] \to [ i32 ]$ |
+| `0x66` | `f64.ge`    | $[ f64, f64 ] \to [ i32 ]$ |
 
 
 
