@@ -3,6 +3,9 @@
 
 Selects one of the first two parameters based on the value of the third parameter [^§2.4.4].
 
+The `valtype` immediate is optional, so long as the result type (and type of the first two parameters) is a numeric type [^§2.4.4].
+
+Otherwise, the `valtype` immediate declares the result type [^§2.4.4].
 
 
 
@@ -15,10 +18,6 @@ Selects one of the first two parameters based on the value of the third paramete
 
 
 
-
-
-
-
 ## WAT Examples
 
 ### Without a `valtype` immediate
@@ -26,7 +25,7 @@ Selects one of the first two parameters based on the value of the third paramete
 ```wasm
 i32.const 10    ;; The first parameter will be the result if
                 ;; the condition is not 0
-                
+
 i32.const 20    ;; The second parameter will be the result if
                 ;; the condition is 0
 
@@ -34,19 +33,19 @@ i32.const 1     ;; The third parameter is the condition
 select
 ```
 
+
 ### With a `valtype` immediate
 
 ```wasm
-i32.const 10    ;; The first parameter will be the result if
-                ;; the condition is not 0
+ref.func $func1    ;; The first parameter will be the result if
+                   ;; the condition is not 0
 
-i32.const 20    ;; The second parameter will be the result if
-                ;; the condition is 0
+ref.func $func2    ;; The second parameter will be the result if
+                   ;; the condition is 0
 
-i32.const 1     ;; The third parameter is the condition
-select i32
+i32.const 1        ;; The third parameter is the condition
+select funcref
 ```
-
 
 
 
