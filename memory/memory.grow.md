@@ -21,7 +21,7 @@ Returns one result to the stack, an `i32` representing the previous total size o
 
 
 
-## Examples
+## WAT Examples
 
 ### Requesting more memory
 
