@@ -15,31 +15,21 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
   - [`le`](./numeric/le) (less than or equals)
   - [`ge`](./numeric/ge) (greater than or equals)
 
-- `i32.ne`
-- `i64.ne`
-- `f32.ne`
-- `f64.ne`
-- `i32.lt_s`
-- `i64.lt_s`
-- `i32.lt_u`
-- `i64.lt_u`
-- `f32.lt`
-- `f64.lt`
 - `i32.gt_s`
-- `i64.gt_s`
 - `i32.gt_u`
+- `i64.gt_s`
 - `i64.gt_u`
 - `f32.gt`
 - `f64.gt`
 - `i32.le_s`
-- `i64.le_s`
 - `i32.le_u`
+- `i64.le_s`
 - `i64.le_u`
 - `f32.le`
 - `f64.le`
 - `i32.ge_s`
-- `i64.ge_s`
 - `i32.ge_u`
+- `i64.ge_s`
 - `i64.ge_u`
 - `f32.ge`
 - `f64.ge`
