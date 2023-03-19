@@ -51,14 +51,17 @@ i32.const 0x6D
 f32.const 30.5
 f32.const +32.57
 f64.const -41.99
+f64.const 12.34e+40
 
 ;; Hex-Float Format
 f64.const 0x1p-1
 
-;; Special Float Values
+;; Infinity
 f64.const inf
-f64.const -inf
+
+;; NaN
 f64.const nan
+f64.const nan:0x123
 ```
 
 
