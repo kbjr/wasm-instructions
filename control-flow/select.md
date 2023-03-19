@@ -23,13 +23,14 @@ Otherwise, the `valtype` immediate declares the result type [^§2.4.4].
 ### Without a `valtype` immediate
 
 ```wasm
-i32.const 10    ;; The first operand will be the result if
-                ;; the condition is not 0
+;; The first operand will be the result if the condition is not 0
+i32.const 10
 
-i32.const 20    ;; The second operand will be the result if
-                ;; the condition is 0
+;; The second operand will be the result if the condition is 0
+i32.const 20
 
-i32.const 1     ;; The third operand is the condition
+;; The third operand is the condition
+i32.const 1
 select
 ```
 
@@ -37,13 +38,14 @@ select
 ### With a `valtype` immediate
 
 ```wasm
-ref.func $func1    ;; The first operand will be the result if
-                   ;; the condition is not 0
+;; The first operand will be the result if the condition is not 0
+ref.func $func1
 
-ref.func $func2    ;; The second operand will be the result if
-                   ;; the condition is 0
+;; The second operand will be the result if the condition is 0
+ref.func $func2
 
-i32.const 1        ;; The third operand is the condition
+;; The third operand is the condition
+i32.const 1
 select funcref
 ```
 
