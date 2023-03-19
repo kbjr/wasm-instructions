@@ -10,19 +10,12 @@ Returns one result to the stack, an `i32` representing the previous total size o
 
 
 
-## Signature
 
-```katex
-memory.grow \quad [ i32 ] \to [ i32 ]
-```
+## Signatures
 
-|  |  |
-|--|--|
-| Opcode | `0x40` |
-| Immediates | _none_ |
-| Parameters | `i32` |
-| Results | `i32` |
-
+| Opcode | Signature |
+|--------|-----------|
+| `0x40` | $memory.grow \quad [ i32 ] \to [ i32 ]$ |
 
 
 
