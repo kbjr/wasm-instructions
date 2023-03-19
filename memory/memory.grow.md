@@ -12,8 +12,10 @@ Returns one result to the stack, an `i32` representing the previous total size o
 
 ## Signature
 
+### Opcode `0x40`
+
 ```katex
-0x40 memory.grow \quad [ i32 ] \to [ i32 ]
+memory.grow \quad [ i32 ] \to [ i32 ]
 ```
 
 |  |  |
