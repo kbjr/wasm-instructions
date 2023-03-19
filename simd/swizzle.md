@@ -27,5 +27,5 @@ i8x16.swizzle
 
 ## References
 
-[^§2.4.1]: _WebAssembly Core Specification: Vector Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A0>
+[^§4.4.3.6]: _WebAssembly Core Specification, Execution, Vector Instructions, i8x16.swizzle_ - <https://webassembly.github.io/spec/core/bikeshed/#-mathsfi8x16hrefsyntax-instr-vecmathsfswizzle%E2%91%A0>
 

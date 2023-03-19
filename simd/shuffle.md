@@ -30,5 +30,6 @@ i8x16.shuffle 0 31 1 30 2 29 3 28 4 27 5 26 6 25 7 24
 
 ## References
 
-[^§2.4.1]: _WebAssembly Core Specification: Vector Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A0>
+[^§2.4.2]: _WebAssembly Core Specification, Structure, Vector Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A0>
+[^§4.4.3.7]: _WebAssembly Core Specification, Execution, Vector Instructions, i8x16.shuffle_ - <https://webassembly.github.io/spec/core/bikeshed/#-mathsfi8x16hrefsyntax-instr-vecmathsfshufflexast>
 
