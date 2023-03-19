@@ -9,8 +9,6 @@ Returns one result to the stack, an `i32` representing the previous total size o
 
 
 
-## Signatures
-
 | Opcode | Signature |
 |--------|-----------|
 | `0x40` | $memory.grow \quad [ i32 ] \to [ i32 ]$ |

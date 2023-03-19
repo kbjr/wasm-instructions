@@ -5,9 +5,6 @@ _todo_
 
 
 
-
-## Signatures
-
 | Opcode | Signature |
 |--------|-----------|
 | `0x48` | $i32.lt\_s \quad [ i32, i32 ] \to [ i32 ]$ |

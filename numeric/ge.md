@@ -5,9 +5,6 @@ _todo_
 
 
 
-
-## Signatures
-
 | Opcode | Signature |
 |--------|-----------|
 | `0x4E` | $i32.ge\_s \quad [ i32, i32 ] \to [ i32 ]$ |

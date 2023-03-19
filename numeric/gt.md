@@ -5,9 +5,6 @@ _todo_
 
 
 
-
-## Signatures
-
 | Opcode | Signature |
 |--------|-----------|
 | `0x4A` | $i32.gt\_s \quad [ i32, i32 ] \to [ i32 ]$ |

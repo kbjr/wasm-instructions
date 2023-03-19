@@ -5,9 +5,6 @@ _todo_
 
 
 
-
-## Signatures
-
 | Opcode | Signature |
 |--------|-----------|
 | `0x45` | $i32.eqz \quad [ i32 ] \to [ i32 ]$ |

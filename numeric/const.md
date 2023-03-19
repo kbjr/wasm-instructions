@@ -7,9 +7,6 @@ There are four different opcodes, to indicate the type of the value
 
 
 
-
-## Signatures
-
 | Opcode | Signature |
 |--------|-----------|
 | `0x41` | $i32.const \quad const_{i32} \quad [ ] \to [ i32 ]$ |

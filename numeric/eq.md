@@ -5,9 +5,6 @@ _todo_
 
 
 
-
-## Signatures
-
 | Opcode | Signature |
 |--------|-----------|
 | `0x46` | $i32.eq \quad [ i32, i32 ] \to [ i32 ]$ |

@@ -5,9 +5,6 @@ _todo_
 
 
 
-
-## Signatures
-
 | Opcode | Signature |
 |--------|-----------|
 | `0x47` | $i32.ne \quad [ i32, i32 ] \to [ i32 ]$ |

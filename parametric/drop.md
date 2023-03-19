@@ -5,8 +5,6 @@ Drop one value from the stack [^§2.4.4].
 
 
 
-## Signatures
-
 | Opcode | Signature |
 |--------|-----------|
 | `0x1A` | $drop \quad [ T ] \to [ ]$ |

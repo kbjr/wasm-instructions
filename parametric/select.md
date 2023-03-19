@@ -9,8 +9,6 @@ Otherwise, the `valtype` immediate declares the result type [^§2.4.4].
 
 
 
-## Signatures
-
 | Opcode | Signature |
 |--------|-----------|
 | `0x1B` | $select \quad [ numtype_1, numtype_1, i32 ] \to [ numtype_1 ]$ |
