@@ -1,9 +1,9 @@
 
 # `select`
 
-Selects one of the first two parameters based on the value of the third parameter [^§2.4.4].
+Selects one of the first two operands based on the value of the third operand [^§2.4.4].
 
-The `valtype` immediate is optional, so long as the result type (and type of the first two parameters) is a numeric type [^§2.4.4].
+The `valtype` immediate is optional, so long as the result type (and type of the first two operands) is a numeric type [^§2.4.4].
 
 Otherwise, the `valtype` immediate declares the result type [^§2.4.4].
 
@@ -23,13 +23,13 @@ Otherwise, the `valtype` immediate declares the result type [^§2.4.4].
 ### Without a `valtype` immediate
 
 ```wasm
-i32.const 10    ;; The first parameter will be the result if
+i32.const 10    ;; The first operand will be the result if
                 ;; the condition is not 0
 
-i32.const 20    ;; The second parameter will be the result if
+i32.const 20    ;; The second operand will be the result if
                 ;; the condition is 0
 
-i32.const 1     ;; The third parameter is the condition
+i32.const 1     ;; The third operand is the condition
 select
 ```
 
@@ -37,13 +37,13 @@ select
 ### With a `valtype` immediate
 
 ```wasm
-ref.func $func1    ;; The first parameter will be the result if
+ref.func $func1    ;; The first operand will be the result if
                    ;; the condition is not 0
 
-ref.func $func2    ;; The second parameter will be the result if
+ref.func $func2    ;; The second operand will be the result if
                    ;; the condition is 0
 
-i32.const 1        ;; The third parameter is the condition
+i32.const 1        ;; The third operand is the condition
 select funcref
 ```
 

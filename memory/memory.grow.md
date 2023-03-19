@@ -3,7 +3,7 @@
 
 Requests more memory be allocated to the WASM instance [^§2.4.7].
 
-Takes one parameter from the stack, an `i32` representing the number of pages to request [^§2.4.7]; Each page is defined as 64KiB [^§4.2.8].
+Takes one operand from the stack, an `i32` representing the number of pages to request [^§2.4.7]; Each page is defined as 64KiB [^§4.2.8].
 
 Returns one result to the stack, an `i32` representing the previous total size of memory in pages, or `-1` if the operation failed [^§2.4.7].
 
