@@ -7,12 +7,13 @@ Takes one parameter from the stack, an `i32` representing the number of pages to
 
 Returns one result to the stack, an `i32` representing the previous total size of memory in pages, or `-1` if the operation failed.
 
-```
-memory.grow ( i32 ) => ( i32 )
-```
+
+
+
+## Signature
 
 ```katex
-memory.grow \quad [ i32 ] \to [ i32 ]
+0x40 memory.grow \quad [ i32 ] \to [ i32 ]
 ```
 
 |  |  |
@@ -21,6 +22,9 @@ memory.grow \quad [ i32 ] \to [ i32 ]
 | Immediates | _none_ |
 | Parameters | `i32` |
 | Results | `i32` |
+
+
+
 
 
 
