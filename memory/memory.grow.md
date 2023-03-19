@@ -1,11 +1,11 @@
 
 # `memory.grow`
 
-Requests more memory be allocated to the WASM instance.
+Requests more memory be allocated to the WASM instance [^§2.4.7].
 
-Takes one parameter from the stack, an `i32` representing the number of pages to request; Each page is defined as 64KiB.
+Takes one parameter from the stack, an `i32` representing the number of pages to request [^§2.4.7]; Each page is defined as 64KiB [^§4.2.8].
 
-Returns one result to the stack, an `i32` representing the previous total size of memory in pages, or `-1` if the operation failed.
+Returns one result to the stack, an `i32` representing the previous total size of memory in pages, or `-1` if the operation failed [^§2.4.7].
 
 
 
@@ -39,3 +39,10 @@ if
   ;; If the two values are equal, the instance failed to get more memory
 end
 ```
+
+
+
+## References
+
+[^§2.4.7]: _WebAssembly Core Specification: Memory Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#memory-instructions%E2%91%A0>
+[^§4.2.8]: _WebAssembly Core Specification: Memory Instances_ - <https://webassembly.github.io/spec/core/bikeshed/index.html#page-size>
