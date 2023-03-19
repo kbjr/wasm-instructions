@@ -5,15 +5,16 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
 
 ## Numeric
 
-- [Constants](./numeric/const)
-
-### Constants
-
-- [`i32.const`](./numeric/i32.const)
-- [`i64.const`](./numeric/i64.const)
-- [`f32.const`](./numeric/f32.const)
-- [`f64.const`](./numeric/f64.const)
-
+- [Constants](./numeric/constants)
+- Comparisons
+  - [`eqz`](./numeric/eqz)
+  - [`eq`](./numeric/eq)
+  - [`ne`](./numeric/ne)
+  - [`lt`](./numeric/lt)
+  - [`gt`](./numeric/gt)
+  - [`le`](./numeric/le)
+  - [`ge`](./numeric/ge)
+<!-- 
 ### Comparisons
 
 #### `i32`
@@ -60,7 +61,7 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
 - `f64.lt`
 - `f64.gt`
 - `f64.le`
-- `f64.ge`
+- `f64.ge` -->
 
 ## Vector
 
@@ -72,7 +73,7 @@ _todo_
 
 ## Parametric
 
-- `drop`
+- [`drop`](./parametric/drop)
 - [`select`](./parametric/select)
 
 ## Variable
