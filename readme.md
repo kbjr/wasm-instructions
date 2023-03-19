@@ -10,10 +10,10 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
   - [`eqz`](./numeric/eqz)
   - [`eq`](./numeric/eq)
   - [`ne`](./numeric/ne)
-  - [`lt` / `lt_s` / `lt_u`](./numeric/lt)
-  - [`gt` / `gt_s` / `gt_u`](./numeric/gt)
-  - [`le` / `le_s` / `le_u`](./numeric/le)
-  - [`ge` / `ge_s` / `ge_u`](./numeric/ge)
+  - [`lt`](./numeric/lt)
+  - [`gt`](./numeric/gt)
+  - [`le`](./numeric/le)
+  - [`ge`](./numeric/ge)
 
 - `i32.eq`
 - `i64.eq`
