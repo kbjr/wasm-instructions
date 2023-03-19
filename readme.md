@@ -31,7 +31,7 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
   - [`shr`](./numeric/shr) (shift right)
   - [`rotl`](./numeric/rotl) (rotate left)
   - [`rotr`](./numeric/rotr) (rotate right)
-- Float Operations
+- Floating Point Operations
   - [`abs`](./numeric/abs) (absolute value)
   - [`neg`](./numeric/neg) (negative)
   - [`ceil`](./numeric/ceil) (ceiling / round up)
@@ -55,7 +55,49 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
 
 ## Vector / SIMD
 
-_todo_
+- [`const`](./simd/const)
+- [`load](./simd/load)
+- [`store](./simd/store)
+- `shuffle`
+- `swizzle`
+- `splat`
+- `extract_lane`
+- `replace_lane`
+- [`any_true`](./simd/any_true) (any lane not equals zero)
+- [`all_true`](./simd/all_true)
+- Comparisons
+  - [`eq`](./simd/eq) (equals)
+  - [`ne`](./simd/ne) (not equals)
+  - [`lt`](./simd/lt) (less than)
+  - [`gt`](./simd/gt) (greater than)
+  - [`le`](./simd/le) (less than or equals)
+  - [`ge`](./simd/ge) (greater than or equals)
+- `not`
+- `and`
+- `andnot`
+- `or`
+- `xor`
+- `bitselect`
+- Integer Operations
+  - `all_true`
+  - `bitmask`
+  - `narrow`
+  - Bit Operations
+    - `shl`
+    - `shr`
+    - `popcnt`
+  - Arithmetic
+    - `abs`
+    - `neg`
+    - `add`
+    - `sub`
+- Floating Point Operations
+  - `f32x4.demote_f64x2_zero`
+  - `f64x2.promote_low_f32x4`
+  - `ceil`
+  - `floor`
+  - `trunc`
+  - `nearest`
 
 ## Reference
 
