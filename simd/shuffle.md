@@ -1,7 +1,7 @@
 
 # shuffle
 
-Selects values from the vectors two in the two operands, combining them together to result in a new vector.
+Selects values from the two vector operands, combining them together to result in a new vector.
 
 The lanes to select from are indicated using the immediates, with indices $[0-15]$ referring to the first operand, and $[16-31]$ referring to the second operand.
 
