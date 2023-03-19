@@ -9,8 +9,6 @@ Returns one result to the stack, an `i32` representing the previous total size o
 
 
 
-
-
 ## Signatures
 
 | Opcode | Signature |
@@ -19,21 +17,22 @@ Returns one result to the stack, an `i32` representing the previous total size o
 
 
 
-
-
 ## WAT Examples
 
 ### Requesting more memory
 
 ```wasm
-i32.const 2    ;; Places 2 on the stack
+;; Places 2 on the stack
+i32.const 2
 
-memory.grow    ;; Takes one value off of the stack (2), and requests that
-               ;; many additional pages of memory
+;; Takes one value off of the stack (2), and requests that many additional pages of memory
+memory.grow
 
-i32.const -1   ;; Places -1 on the stack
-i32.eq         ;; Takes two values off of the stack (-1 and the result from
-               ;; memory.grow) and compares them
+;; Places -1 on the stack
+i32.const -1
+
+;; Takes two values off of the stack (the result from memory.grow and -1) and compares them
+i32.eq
 
 if
   ;; If the two values are equal, the instance failed to get more memory
