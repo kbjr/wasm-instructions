@@ -1,0 +1,77 @@
+$schema: http://json-schema.org/draft-07/schema
+type: object
+description: Contains metadata about WASM instructions
+properties:
+  instructions:
+    type: array
+    items:
+      oneOf:
+      - $ref: "#/definitions/instruction"
+      - $ref: "#/definitions/instruction_set"
+definitions:
+  type_i32_const:
+    type: string
+    const: i32_const
+    description: A constant i32 value
+  type_i64_const:
+    type: string
+    const: i64_const
+    description: A constant i64 value
+  type_i32:
+    type: string
+    const: i32
+    description: 
+  type_i64:
+    type: string
+    const: i64
+    description: 
+  type_f32:
+    type: string
+    const: f32
+    description: 
+  type_f64:
+    type: string
+    const: f64
+    description: 
+  immediate:
+    type: object
+    properties:
+      type:
+        oneOf:
+          - $ref: "#/definitions/type_i32_const"
+          - $ref: "#/definitions/type_i64_const"
+  instruction:
+    type: object
+    properties:
+      opcode:
+        type: integer
+      name:
+        type: string
+      description:
+        type: string
+      types:
+        type: array
+        # todo
+      immediates:
+        type: array
+        # todo
+      params:
+        type: array
+        # todo
+      results:
+        type: array
+        # todo
+  instruction_set:
+    type: object
+    properties:
+      opcode:
+        type: integer
+      description:
+        type: string
+      instructions:
+        type: array
+        items:
+          oneOf:
+          - $ref: "#/definitions/instruction"
+          - $ref: "#/definitions/instruction_set"
+  

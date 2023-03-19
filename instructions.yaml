@@ -1,9 +1,215 @@
+$schema: ./instructions.schema.yaml
 instructions:
+
+# ===== Flow Control =====
+
+- name: unreachable
+  opcode: 0x00
+  description: Indicates an area in code which should not be reachable
+  immediates: [ ]
+  # todo: how to represent stack-polymorphic instruction....
+
+- name: nop
+  opcode: 0x01
+  description: 
+  immediates: [ ]
+  params: [ ]
+  results: [ ]
+
+- name: block
+  opcode: 0x02
+  description: 
+  immediates:
+  - type: blocktype
+    description: 
+  - type: instructions
+    description: 
+    closers:
+    - end
+  # todo: how to represent params/results based on blocktype....
+  params: [ ]
+  results: [ ]
+
+- name: loop
+  opcode: 0x03
+  description: 
+  immediates:
+  - type: blocktype
+    description: 
+  - type: instructions
+    description: 
+    closers:
+    - end
+  # todo: how to represent params/results based on blocktype....
+  params: [ ]
+  results: [ ]
+
+- name: if
+  opcode: 0x04
+  description: 
+  immediates:
+  - type: blocktype
+    description: 
+  - type: instructions
+    description: 
+    closers:
+    - end
+    - else
+  # todo: how to represent params/results based on blocktype....
+  params: [ ]
+  results: [ ]
+
+- name: else
+  opcode: 0x05
+  description: 
+  immediates:
+  - type: blocktype
+    description: 
+  - type: instructions
+    description: 
+    closers:
+    - end
+  # todo: how to represent params/results based on blocktype....
+  params: [ ]
+  results: [ ]
+
+# == Opcodes 0x06 - 0x0a Reserved ==
+
+- name: end
+  opcode: 0x0b
+  description: 
+  immediates: [ ]
+  params: [ ]
+  results: [ ]
+  closes:
+  - block
+  - loop
+  - if
+  - else
+
+- name: 
+
+
+- name: drop
+  opcode: 0x1a
+  description: 
+  types:
+  - name: T1
+    types:
+    - i32
+    - i64
+    - f32
+    - f64
+    - v128
+    - funcref
+    - externref
+  immediates: [ ]
+  params:
+  - type: T1
+    description: 
+  results: [ ]
+
+- name: select
+  opcode: 0x1b
+  description: 
+  types:
+  - name: T1
+    types:
+    - i32
+    - i64
+    - f32
+    - f64
+  immediates: [ ]
+  params:
+  - type: T1
+    description: 
+  - type: T1
+    description: 
+  - type: i32
+    description: 
+  results:
+  - type: T1
+    description: 
+
+- name: select
+  opcode: 0x1c
+  description: 
+  types:
+  - name: T1
+    types:
+    - i32
+    - i64
+    - f32
+    - f64
+    - v128
+    - funcref
+    - externref
+  immediates:
+  - type: valtype
+    valtype: T1
+    description: 
+  params:
+  - type: T1
+    description: 
+  - type: T1
+    description: 
+  - type: i32
+    description: 
+  results:
+  - type: T1
+    description: 
+
+# == Opcodes 0x1d - 0x1f Reserved ==
+
+
+
+
+# ===== Variables =====
+
+- name: local.get
+  opcode: 0x20
+  # todo...
+
+- name: local.set
+  opcode: 0x21
+  # todo...
+
+- name: local.tee
+  opcode: 0x22
+  # todo...
+
+- name: global.get
+  opcode: 0x23
+  # todo...
+
+- name: global.set
+  opcode: 0x24
+  # todo...
+
+- name: table.get
+  opcode: 0x25
+  # todo...
+
+- name: table.set
+  opcode: 0x26
+  # todo...
+
+
+
+
+# == Opcode 0x27 Reserved ==
+
+
 
 # ===== Memory =====
 
+- name: i32.load
+  opcode: 0x28
+  # todo...
+
 - name: memory.grow
   opcode: 0x40
+  description: Requests more memory be allocated to the WASM instance
   immediates: [ ]
   params:
   - type: i32
@@ -12,6 +218,8 @@ instructions:
   - type: i32
     description: The previous number of pages of memory allocated to the instances
       before growing, or -1 if the operation failed
+
+
 
 
 
@@ -61,4 +269,140 @@ instructions:
   results:
   - type: f64
     description: The provided constant value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# === 0xfc Instruction Sub-Page ===
+
+- opcode: 0xfc
+  description: 
+  instructions:
+
+  # ===== Truncate Float to Integer with Saturation =====
+
+  - name: i32.trunc_sat_f32_s
+    opcode: 0x00
+    description: 
+    immediates: [ ]
+    params:
+    - type: f32
+      description: 
+    results:
+    - type: i32
+      description: 
+
+  - name: i32.trunc_sat_f32_u
+    opcode: 0x01
+    description: 
+    immediates: [ ]
+    params:
+    - type: f32
+      description: 
+    results:
+    - type: i32
+      description: 
+
+  - name: i32.trunc_sat_f64_s
+    opcode: 0x02
+    description: 
+    immediates: [ ]
+    params:
+    - type: f64
+      description: 
+    results:
+    - type: i32
+      description: 
+
+  - name: i32.trunc_sat_f64_u
+    opcode: 0x03
+    description: 
+    immediates: [ ]
+    params:
+    - type: f64
+      description: 
+    results:
+    - type: i32
+      description: 
+
+  - name: i64.trunc_sat_f32_s
+    opcode: 0x04
+    description: 
+    immediates: [ ]
+    params:
+    - type: f32
+      description: 
+    results:
+    - type: i64
+      description: 
+
+  - name: i64.trunc_sat_f32_u
+    opcode: 0x05
+    description: 
+    immediates: [ ]
+    params:
+    - type: f32
+      description: 
+    results:
+    - type: i64
+      description: 
+
+  - name: i64.trunc_sat_f64_s
+    opcode: 0x06
+    description: 
+    immediates: [ ]
+    params:
+    - type: f64
+      description: 
+    results:
+    - type: i64
+      description: 
+
+  - name: i64.trunc_sat_f64_u
+    opcode: 0x07
+    description: 
+    immediates: [ ]
+    params:
+    - type: f64
+      description: 
+    results:
+    - type: i64
+      description: 
+
+
+
+
+
+# === 0xfd Instruction Sub-Page ===
+
+- opcode: 0xfd
+  description: 
+  instructions:
+
+  # ===== v128 Memory Load / Store and Constants =====
+
+  - name: v128.load
+    opcode: 0x00
+    description: 
+    # todo...
+
+  - name: v128.load8x8_s
+    opcode: 0x01
+    description: 
+    # todo...
+
+  - name: v128.load8x8_u
+    opcode: 0x02
+    description: 
+    # todo...
 
