@@ -7,7 +7,7 @@ _todo_
 
 | Opcode      | Instruction       | Immediates        | Stack Arity |
 |-------------|-------------------|-------------------|-------------|
-| `0xFD ....` | `i8x16.shuffle`   | $const_{i32}[16]$ | $[ v128, v128 ] \to [ v128 ]$ |
+| `0xFD 0x0D` | `i8x16.shuffle`   | $const_{i32}[16]$ | $[ v128, v128 ] \to [ v128 ]$ |
 
 
 ## WAT Examples

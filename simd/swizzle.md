@@ -7,7 +7,7 @@ _todo_
 
 | Opcode      | Instruction       | Stack Arity |
 |-------------|-------------------|-------------|
-| `0xFD ....` | `i8x16.swizzle`   | $[ v128, v128 ] \to [ v128 ]$ |
+| `0xFD 0x0E` | `i8x16.swizzle`   | $[ v128, v128 ] \to [ v128 ]$ |
 
 
 ## WAT Examples
