@@ -35,6 +35,32 @@ i64.const 20
 i64.add
 ```
 
+### Declaring constants of different types
+
+```wasm
+;; Integers
+i32.const 10
+i32.const +20
+i64.const -30
+
+;; Integers can also be declared using hex format
+i32.const 0x6D
+
+
+;; Floats
+f32.const 30.5
+f32.const +32.57
+f64.const -41.99
+
+;; Hex-Float Format
+f64.const 0x1p-1
+
+;; Special Float Values
+f64.const inf
+f64.const -inf
+f64.const nan
+```
+
 
 ## References
 
