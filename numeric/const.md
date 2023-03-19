@@ -25,17 +25,17 @@ There are four different opcodes, to indicate the type of the value
 
 ```wasm
 ;; Places 10 on the stack
-i64.const 10
+i32.const 10
 
 ;; Places 20 on the stack
-i64.const 20
+i32.const 20
 
 ;; Takes two values off of the stack (10 and 20), adds them, and
 ;; places the result (30) on the stack
 i64.add
 ```
 
-### Declaring constants of different types
+### Declaring constants different types of constants in different ways
 
 ```wasm
 ;; Integers
