@@ -13,7 +13,7 @@ _todo_
 ## WAT Examples
 
 ```wasm
-;; Create a vector containing our values
+;; Create a vector containing the values
 v128.const i8x16 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32
 
 ;; Create a vector representing the ordered indices to select
