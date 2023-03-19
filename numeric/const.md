@@ -35,22 +35,24 @@ i32.const 20
 i64.add
 ```
 
-### Declaring constants different types of constants in different ways
+### Different ways to declare integers
 
 ```wasm
-;; Integers
 i32.const 10
 i32.const +20
 i64.const -30
 
 ;; Integers can also be declared using hex format
 i32.const 0x6D
+```
 
+### Different ways to declare floats
 
-;; Floats
+```wasm
 f32.const 30.5
 f32.const +32.57
 f64.const -41.99
+
 f64.const 12.34e+40
 
 ;; Hex-Float Format
