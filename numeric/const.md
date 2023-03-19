@@ -7,12 +7,12 @@ There are four different opcodes, to indicate the type of the value
 
 
 
-| Opcode | Signature |
-|--------|-----------|
-| `0x41` | $i32.const \quad const_{i32} \quad [ ] \to [ i32 ]$ |
-| `0x42` | $i64.const \quad const_{i64} \quad [ ] \to [ i64 ]$ |
-| `0x43` | $f32.const \quad const_{f32} \quad [ ] \to [ f32 ]$ |
-| `0x44` | $f64.const \quad const_{f64} \quad [ ] \to [ f64 ]$ |
+| Opcode | Instruction | Immediates    | Stack Arity |
+|--------|-------------|---------------|-------------|
+| `0x41` | `i32.const` | $const_{i32}$ | $[ ] \to [ i32 ]$ |
+| `0x42` | `i64.const` | $const_{i64}$ | $[ ] \to [ i64 ]$ |
+| `0x43` | `f32.const` | $const_{f32}$ | $[ ] \to [ f32 ]$ |
+| `0x44` | `f64.const` | $const_{f64}$ | $[ ] \to [ f64 ]$ |
 
 
 

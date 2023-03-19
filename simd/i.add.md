@@ -5,15 +5,8 @@ _todo_
 
 
 
-| Opcode      | Signature |
-|-------------|-----------|
-| `0xFD 0x6E` | $i8x16.add \quad [ v128, v128 ] \to [ v128 ]$ |
-| `0xFD 0x6F` | $i8x16.add\_sat\_s \quad [ v128, v128 ] \to [ v128 ]$ |
-| `0xFD 0x70` | $i8x16.add\_sat\_u \quad [ v128, v128 ] \to [ v128 ]$ |
-
-
-| Opcode      | Instruction       | Stack Signature |
-|-------------|-------------------|-----------------|
+| Opcode      | Instruction       | Stack Arity |
+|-------------|-------------------|-------------|
 | `0xFD 0x6E` | `i8x16.add`       | $[ v128, v128 ] \to [ v128 ]$ |
 | `0xFD 0x6F` | `i8x16.add_sat_s` | $[ v128, v128 ] \to [ v128 ]$ |
 | `0xFD 0x70` | `i8x16.add_sat_u` | $[ v128, v128 ] \to [ v128 ]$ |

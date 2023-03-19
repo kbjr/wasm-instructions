@@ -9,9 +9,9 @@ Returns one result to the stack, an `i32` representing the previous total size o
 
 
 
-| Opcode | Instruction | Stack Arity |
-|--------|-------------|-------------|
-| `0x40` | `memory.grow`    | $[ i32 ] \to [ i32 ]$ |
+| Opcode | Instruction   | Stack Arity |
+|--------|---------------|-------------|
+| `0x40` | `memory.grow` | $[ i32 ] \to [ i32 ]$ |
 
 
 
