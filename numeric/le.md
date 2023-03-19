@@ -1,5 +1,5 @@
 
-# le
+# le (less than or equals)
 
 _todo_
 

@@ -1,5 +1,5 @@
 
-# eq
+# eq (equals)
 
 _todo_
 

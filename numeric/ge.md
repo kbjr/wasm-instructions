@@ -1,5 +1,5 @@
 
-# ge
+# ge (greater than or equals)
 
 _todo_
 

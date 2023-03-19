@@ -1,5 +1,5 @@
 
-# eqz
+# eqz (equals zero)
 
 _todo_
 

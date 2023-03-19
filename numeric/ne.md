@@ -1,5 +1,5 @@
 
-# ne
+# ne (not equals)
 
 _todo_
 

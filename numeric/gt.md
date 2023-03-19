@@ -1,5 +1,5 @@
 
-# gt
+# gt (greater than)
 
 _todo_
 

@@ -1,5 +1,5 @@
 
-# lt
+# lt (less than)
 
 _todo_
 
