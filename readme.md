@@ -14,6 +14,12 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
   - [`gt`](./numeric/gt) (greater than)
   - [`le`](./numeric/le) (less than or equals)
   - [`ge`](./numeric/ge) (greater than or equals)
+- Arithmetic
+  - [`add`](./numeric/add)
+  - [`sub`](./numeric/sub) (subtract)
+  - [`mul`](./numeric/mul) (multiply)
+  - [`div`](./numeric/div) (divide)
+  - [`rem`](./numeric/rem) (remainder)
 - Bitwise
   - [`clz`](./numeric/clz) (count leading zeros)
   - [`ctz`](./numeric/ctz) (count trailing zeros)
@@ -25,12 +31,6 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
   - [`shr`](./numeric/shr) (shift right)
   - [`rotl`](./numeric/rotl) (rotate left)
   - [`rotr`](./numeric/rotr) (rotate right)
-- Arithmetic
-  - [`add`](./numeric/add)
-  - [`sub`](./numeric/sub) (subtract)
-  - [`mul`](./numeric/mul) (multiply)
-  - [`div`](./numeric/div) (divide)
-  - [`rem`](./numeric/rem) (remainder)
 - Float Operations
   - [`abs`](./numeric/abs)
   - [`neg`](./numeric/neg)
@@ -59,7 +59,9 @@ _todo_
 
 ## Reference
 
-_todo_
+- [`ref.null`](./reference/null)
+- [`ref.is_null`](./reference/is_null)
+- [`ref.func`](./reference/func)
 
 ## Parametric
 
@@ -68,16 +70,16 @@ _todo_
 
 ## Variable
 
-- `local.get`
-- `local.set`
-- `local.tee`
-- `global.get`
-- `global.set`
+- [`local.get`](./variable/local.get)
+- [`local.set`](./variable/local.set)
+- [`local.tee`](./variable/local.tee)
+- [`global.get`](./variable/global.get)
+- [`global.set`](./variable/global.set)
 
 ## Table
 
-- `table.get`
-- `table.set`
+- [`table.get`](./table/table.get)
+- [`table.set`](./table/table.set)
 _todo_
 
 ## Memory
