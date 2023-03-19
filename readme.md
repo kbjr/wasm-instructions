@@ -14,6 +14,43 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
   - [`gt`](./numeric/gt) (greater than)
   - [`le`](./numeric/le) (less than or equals)
   - [`ge`](./numeric/ge) (greater than or equals)
+- Bitwise
+  - [`clz`](./numeric/clz)
+  - [`ctz`](./numeric/ctz)
+  - [`popcnt`](./numeric/popcnt)
+  - [`and`](./numeric/and)
+  - [`or`](./numeric/or)
+  - [`xor`](./numeric/xor)
+  - [`shl`](./numeric/shl)
+  - [`shr`](./numeric/shr)
+  - [`rotl`](./numeric/rotl)
+  - [`rotr`](./numeric/rotr)
+- Arithmetic
+  - [`add`](./numeric/add)
+  - [`sub`](./numeric/sub)
+  - [`mul`](./numeric/mul)
+  - [`div`](./numeric/div)
+  - [`rem`](./numeric/rem)
+- Float Operations
+  - [`abs`](./numeric/abs)
+  - [`neg`](./numeric/neg)
+  - [`ceil`](./numeric/ceil)
+  - [`floor`](./numeric/floor)
+  - [`trunc`](./numeric/f.trunc)
+  - [`nearest`](./numeric/nearest)
+  - [`sqrt`](./numeric/sqrt)
+  - [`min`](./numeric/min)
+  - [`max`](./numeric/max)
+  - [`copysign`](./numeric/copysign)
+- Type Convertion
+  - [`wrap`](./numeric/wrap)
+  - [`trunc`](./numeric/i.trunc)
+  - [`trunc_sat`](./numeric/trunc_sat)
+  - [`extend`](./numeric/extend)
+  - [`convert`](./numeric/convert)
+  - [`demote`](./numeric/demote)
+  - [`promote`](./numeric/promote)
+  - [`reinterpret`](./numeric/reinterpret)
 
 
 ## Vector
