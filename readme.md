@@ -7,95 +7,105 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
 
 These instructions pertain to the 4 "main" numeric data types: `i32`, `i64`, `f32`, and `f64`
 
-- [`const`](./numeric/const)
+- [`const`](./numeric/const.md)
 - Comparisons
-  - [`eqz`](./numeric/eqz) (equals zero)
-  - [`eq`](./numeric/eq) (equals)
-  - [`ne`](./numeric/ne) (not equals)
-  - [`lt`](./numeric/lt) (less than)
-  - [`gt`](./numeric/gt) (greater than)
-  - [`le`](./numeric/le) (less than or equals)
-  - [`ge`](./numeric/ge) (greater than or equals)
+  - [`eqz`](./numeric/eqz.md) (equals zero)
+  - [`eq`](./numeric/eq.md) (equals)
+  - [`ne`](./numeric/ne.md) (not equals)
+  - [`lt`](./numeric/lt.md) (less than)
+  - [`gt`](./numeric/gt.md) (greater than)
+  - [`le`](./numeric/le.md) (less than or equals)
+  - [`ge`](./numeric/ge.md) (greater than or equals)
 - Arithmetic
-  - [`add`](./numeric/add)
-  - [`sub`](./numeric/sub) (subtract)
-  - [`mul`](./numeric/mul) (multiply)
-  - [`div`](./numeric/div) (divide)
-  - [`rem`](./numeric/rem) (remainder)
-- Bit Operations
-  - [`clz`](./numeric/clz) (count leading zeros)
-  - [`ctz`](./numeric/ctz) (count trailing zeros)
-  - [`popcnt`](./numeric/popcnt) (population count)
-  - [`and`](./numeric/and) (bitwise and)
-  - [`or`](./numeric/or) (bitwise or)
-  - [`xor`](./numeric/xor) (bitwise xor)
-  - [`shl`](./numeric/shl) (shift left)
-  - [`shr`](./numeric/shr) (shift right)
-  - [`rotl`](./numeric/rotl) (rotate left)
-  - [`rotr`](./numeric/rotr) (rotate right)
+  - [`add`](./numeric/add.md)
+  - [`sub`](./numeric/sub.md) (subtract)
+  - [`mul`](./numeric/mul.md) (multiply)
+  - [`div`](./numeric/div.md) (divide)
+  - [`rem`](./numeric/rem.md) (remainder)
+- Bitwise Operations
+  - [`clz`](./numeric/clz.md) (count leading zeros)
+  - [`ctz`](./numeric/ctz.md) (count trailing zeros)
+  - [`popcnt`](./numeric/popcnt.md) (population count)
+  - [`and`](./numeric/and.md) (bitwise and)
+  - [`or`](./numeric/or.md) (bitwise or)
+  - [`xor`](./numeric/xor.md) (bitwise xor)
+  - [`shl`](./numeric/shl.md) (shift left)
+  - [`shr`](./numeric/shr.md) (shift right)
+  - [`rotl`](./numeric/rotl.md) (rotate left)
+  - [`rotr`](./numeric/rotr.md) (rotate right)
 - Floating Point Operations
-  - [`abs`](./numeric/abs) (absolute value)
-  - [`neg`](./numeric/neg) (negative)
-  - [`ceil`](./numeric/ceil) (ceiling / round up)
-  - [`floor`](./numeric/floor) (floor / round down)
-  - [`trunc`](./numeric/f.trunc) (truncate)
-  - [`nearest`](./numeric/nearest) (round to nearest)
-  - [`sqrt`](./numeric/sqrt) (square root)
-  - [`min`](./numeric/min) (select minimum)
-  - [`max`](./numeric/max) (select maximum)
-  - [`copysign`](./numeric/copysign)
+  - [`abs`](./numeric/abs.md) (absolute value)
+  - [`neg`](./numeric/neg.md) (negative)
+  - [`ceil`](./numeric/ceil.md) (ceiling / round up)
+  - [`floor`](./numeric/floor.md) (floor / round down)
+  - [`trunc`](./numeric/f.trunc.md) (truncate)
+  - [`nearest`](./numeric/nearest.md) (round to nearest)
+  - [`sqrt`](./numeric/sqrt.md) (square root)
+  - [`min`](./numeric/min.md) (select minimum)
+  - [`max`](./numeric/max.md) (select maximum)
+  - [`copysign`](./numeric/copysign.md)
 - Type Convertion
-  - [`wrap`](./numeric/wrap)
-  - [`trunc`](./numeric/i.trunc)
-  - [`trunc_sat`](./numeric/trunc_sat)
-  - [`extend`](./numeric/extend)
-  - [`convert`](./numeric/convert)
-  - [`demote`](./numeric/demote)
-  - [`promote`](./numeric/promote)
-  - [`reinterpret`](./numeric/reinterpret)
+  - [`wrap`](./numeric/wrap.md)
+  - [`trunc`](./numeric/i.trunc.md)
+  - [`trunc_sat`](./numeric/trunc_sat.md)
+  - [`extend`](./numeric/extend.md)
+  - [`convert`](./numeric/convert.md)
+  - [`demote`](./numeric/demote.md)
+  - [`promote`](./numeric/promote.md)
+  - [`reinterpret`](./numeric/reinterpret.md)
 
 
 ## Vector / SIMD
 
-- [`const`](./simd/const)
-- [`load`](./simd/load)
-- [`store`](./simd/store)
+- [`const`](./simd/const.md)
+- [`load`](./simd/load.md)
+- [`store`](./simd/store.md)
 - `shuffle`
 - `swizzle`
 - `splat`
 - `extract_lane`
 - `replace_lane`
-- [`any_true`](./simd/any_true) (any lane not equals zero)
-- [`all_true`](./simd/all_true)
 - Comparisons
-  - [`eq`](./simd/eq) (equals)
-  - [`ne`](./simd/ne) (not equals)
-  - [`lt`](./simd/lt) (less than)
-  - [`gt`](./simd/gt) (greater than)
-  - [`le`](./simd/le) (less than or equals)
-  - [`ge`](./simd/ge) (greater than or equals)
-- `not`
-- `and`
-- `andnot`
-- `or`
-- `xor`
-- `bitselect`
+  - [`eq`](./simd/eq.md) (equals)
+  - [`ne`](./simd/ne.md) (not equals)
+  - [`lt`](./simd/lt.md) (less than)
+  - [`gt`](./simd/gt.md) (greater than)
+  - [`le`](./simd/le.md) (less than or equals)
+  - [`ge`](./simd/ge.md) (greater than or equals)
+- Saturating Integer Arithmetic
+  - [`add_sat`](./simd/add_sat.md) (saturating add)
+  - [`sub_sat`](./simd/sub_sat.md) (saturating subtract)
+  - [`q15mulr_sat`](./simd/q15mulr_sat.md) (saturating Q-format rounding multiply)
+  - [`min`](./simd/i.min.md) (select lane-wise minimum)
+  - [`max`](./simd/i.max.md) (select lane-wise maximum)
+  - [`avgr`](./simd/avgr.md) (lane-wise rounding average)
+  - [`abs`](./simd/i.abs.md) (lane-wise absolute value)
+- Bit Shifts
+  - [`shl`](./simd/shl.md) (shift left)
+  - [`shr`](./simd/shr.md) (shift right)
+- Bitwise Operations
+  - [`popcnt`](./simd/popcnt.md) (lane-wise population count)
+  - `not` (bitwise not)
+  - `and` (bitwise and)
+  - `andnot` (bitwise and-not)
+  - `or` (bitwise or)
+  - `xor` (bitwise xor)
+  - `bitselect` (bitwise select)
+  - `bitmask` (bitmask extraction)
+- Boolean Horizontal Reductions
+  - [`any_true`](./simd/any_true.md) (any bit not zero)
+  - [`all_true`](./simd/all_true.md) (all lanes not zero)
 - Integer Operations
-  - `all_true`
-  - `bitmask`
   - `narrow`
-  - Bit Operations
-    - `shl`
-    - `shr`
-    - `popcnt`
   - Arithmetic
-    - `abs`
-    - `neg`
-    - [`add`](./simd/i.add)
+    - [`add`](./simd/i.add.md)
     - `sub`
+    - `extadd_pairwise`
 - Floating Point Operations
   - `f32x4.demote_f64x2_zero`
   - `f64x2.promote_low_f32x4`
+  - [`neg`](./simd/neg.md) (lane-wise negation)
+  - [`abs`](./simd/f.abs.md) (lane-wise absolute value)
   - `ceil`
   - `floor`
   - `trunc`
@@ -103,27 +113,27 @@ These instructions pertain to the 4 "main" numeric data types: `i32`, `i64`, `f3
 
 ## Reference
 
-- [`ref.null`](./reference/null)
-- [`ref.is_null`](./reference/is_null)
-- [`ref.func`](./reference/func)
+- [`ref.null`](./reference/null.md)
+- [`ref.is_null`](./reference/is_null.md)
+- [`ref.func`](./reference/func.md)
 
 ## Parametric
 
-- [`drop`](./parametric/drop)
-- [`select`](./parametric/select)
+- [`drop`](./parametric/drop.md)
+- [`select`](./parametric/select.md)
 
 ## Variable
 
-- [`local.get`](./variable/local.get)
-- [`local.set`](./variable/local.set)
-- [`local.tee`](./variable/local.tee)
-- [`global.get`](./variable/global.get)
-- [`global.set`](./variable/global.set)
+- [`local.get`](./variable/local.get.md)
+- [`local.set`](./variable/local.set.md)
+- [`local.tee`](./variable/local.tee.md)
+- [`global.get`](./variable/global.get.md)
+- [`global.set`](./variable/global.set.md)
 
 ## Table
 
-- [`table.get`](./table/table.get)
-- [`table.set`](./table/table.set)
+- [`table.get`](./table/table.get.md)
+- [`table.set`](./table/table.set.md)
 - _todo_
 
 ## Memory
@@ -151,8 +161,8 @@ These instructions pertain to the 4 "main" numeric data types: `i32`, `i64`, `f3
 - `i64.store8`
 - `i64.store16`
 - `i64.store32`
-- `memory.size`
-- [`memory.grow`](./memory/memory.grow)
+- [`memory.size`](./memory/memory.size.md)
+- [`memory.grow`](./memory/memory.grow.md)
 
 ## Control
 
