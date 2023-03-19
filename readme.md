@@ -3,7 +3,9 @@
 
 Download metadata for all instructions in either [JSON](./instructions?format=json) or [YAML](./instructions?format=yaml) formats.
 
-## Constants
+## Numerics
+
+### Constants
 
 - [`i32.const`](./numeric/i32.const)
 - [`i64.const`](./numeric/i64.const)
