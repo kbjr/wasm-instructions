@@ -7,6 +7,14 @@ Takes one parameter from the stack, an `i32` representing the number of pages to
 
 Returns one result to the stack, an `i32` representing the previous total size of memory in pages, or `-1` if the operation failed.
 
+```
+memory.grow ( i32 ) => ( i32 )
+```
+
+```katex
+memory.grow [ i32 ] => [ i32 ]
+```
+
 |  |  |
 |--|--|
 | Opcode | `0x40` |
