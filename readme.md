@@ -10,44 +10,42 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
   - [`eqz`](./numeric/eqz)
   - [`eq`](./numeric/eq)
   - [`ne`](./numeric/ne)
-  - [`lt`](./numeric/lt)
-  - [`gt`](./numeric/gt)
-  - [`le`](./numeric/le)
-  - [`ge`](./numeric/ge)
+  - [`lt` / `lt_s` / `lt_u`](./numeric/lt)
+  - [`gt` / `gt_s` / `gt_u`](./numeric/gt)
+  - [`le` / `le_s` / `le_u`](./numeric/le)
+  - [`ge` / `ge_s` / `ge_u`](./numeric/ge)
 
-- `i32.eqz`
 - `i32.eq`
-- `i32.ne`
-- `i32.lt_s`
-- `i32.lt_u`
-- `i32.gt_s`
-- `i32.gt_u`
-- `i32.le_s`
-- `i32.le_u`
-- `i32.ge_s`
-- `i32.ge_u`
-- `i64.eqz`
 - `i64.eq`
-- `i64.ne`
-- `i64.lt_s`
-- `i64.lt_u`
-- `i64.gt_s`
-- `i64.gt_u`
-- `i64.le_s`
-- `i64.le_u`
-- `i64.ge_s`
-- `i64.ge_u`
 - `f32.eq`
-- `f32.ne`
-- `f32.lt`
-- `f32.gt`
-- `f32.le`
-- `f32.ge`
 - `f64.eq`
+- `i32.ne`
+- `i64.ne`
+- `f32.ne`
 - `f64.ne`
+- `i32.lt_s`
+- `i64.lt_s`
+- `i32.lt_u`
+- `i64.lt_u`
+- `f32.lt`
 - `f64.lt`
+- `i32.gt_s`
+- `i64.gt_s`
+- `i32.gt_u`
+- `i64.gt_u`
+- `f32.gt`
 - `f64.gt`
+- `i32.le_s`
+- `i64.le_s`
+- `i32.le_u`
+- `i64.le_u`
+- `f32.le`
 - `f64.le`
+- `i32.ge_s`
+- `i64.ge_s`
+- `i32.ge_u`
+- `i64.ge_u`
+- `f32.ge`
 - `f64.ge`
 
 ## Vector
