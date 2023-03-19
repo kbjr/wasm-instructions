@@ -6,9 +6,13 @@ _todo: description_
 
 
 
-## Signature
+## Signatures
 
-### Opcode 0x1B
+| Opcode | Signature |
+| `0x1B` | $select \quad [ numtype_1, numtype_1, i32 ] \to [ numtype_1 ]$ |
+| `0x1C` | $select \quad valtype(T_1) \quad [ T_1, T_1, i32 ] \to [ T_1 ]$ |
+
+<!-- ### Opcode 0x1B
 
 ```katex
 select \quad [ numtype_1, numtype_1, i32 ] \to [ numtype_1 ]
@@ -18,7 +22,7 @@ select \quad [ numtype_1, numtype_1, i32 ] \to [ numtype_1 ]
 
 ```katex
 select \quad valtype(T_1) \quad [ T_1, T_1, i32 ] \to [ T_1 ]
-```
+``` -->
 
 
 
