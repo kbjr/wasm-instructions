@@ -9,10 +9,10 @@ There are four different opcodes, to indicate the type of the value
 
 | Opcode | Instruction | Immediates    | Stack Arity |
 |--------|-------------|---------------|-------------|
-| `0x41` | `i32.const` | $const_{i32}$ | $[ ] \to [ i32 ]$ |
-| `0x42` | `i64.const` | $const_{i64}$ | $[ ] \to [ i64 ]$ |
-| `0x43` | `f32.const` | $const_{f32}$ | $[ ] \to [ f32 ]$ |
-| `0x44` | `f64.const` | $const_{f64}$ | $[ ] \to [ f64 ]$ |
+| `0x41` | `i32.const` | $i32_{const}$ | $[ ] \to [ i32 ]$ |
+| `0x42` | `i64.const` | $i64_{const}$ | $[ ] \to [ i64 ]$ |
+| `0x43` | `f32.const` | $f32_{const}$ | $[ ] \to [ f32 ]$ |
+| `0x44` | `f64.const` | $f64_{const}$ | $[ ] \to [ f64 ]$ |
 
 
 
