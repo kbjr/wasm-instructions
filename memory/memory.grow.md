@@ -12,7 +12,7 @@ memory.grow ( i32 ) => ( i32 )
 ```
 
 ```katex
-memory.grow [ i32 ] => [ i32 ]
+memory.grow [ i32 ] \to [ i32 ]
 ```
 
 |  |  |
