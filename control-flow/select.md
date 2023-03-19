@@ -10,13 +10,13 @@ _todo: description_
 
 ```katex
 T_1 ::= numtype
-
+\newline
 select \quad [ T_1, T_1, i32 ] \to [ T_1 ]
 ```
 
 ```katex
 T_1 ::= valtype
-
+\newline
 select \quad valtype(T_1) \quad [ T_1, T_1, i32 ] \to [ T_1 ]
 ```
 
