@@ -13,3 +13,7 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
 ## Memory
 
 - [`memory.grow`](./memory/memory.grow)
+
+## Control Flow
+
+- [`select`](./control-flow/select)
