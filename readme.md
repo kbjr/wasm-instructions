@@ -57,6 +57,8 @@ These instructions pertain to the 4 "main" numeric data types: `i32`, `i64`, `f3
 
 ## Vector / SIMD
 
+These instructions pertain to `v128` values, and their various formats.
+
 - [`const`](./simd/const.md)
 - [`load`](./simd/load.md)
 - [`store`](./simd/store.md)
@@ -102,14 +104,18 @@ These instructions pertain to the 4 "main" numeric data types: `i32`, `i64`, `f3
     - `sub`
     - `extadd_pairwise`
 - Floating Point Operations
-  - `f32x4.demote_f64x2_zero`
-  - `f64x2.promote_low_f32x4`
   - [`neg`](./simd/neg.md) (lane-wise negation)
   - [`abs`](./simd/f.abs.md) (lane-wise absolute value)
+  - [`min`](./simd/f.min.md) (NaN-propagating lane-wise select minimum)
+  - [`max`](./simd/f.max.md) (NaN-propagating lane-wise select maximum)
+  - [`pmin`](./simd/pmin.md) (lane-wise select psuedo-minimum)
+  - [`pmax`](./simd/pmax.md) (lane-wise select psuedo-maximum)
   - `ceil`
   - `floor`
   - `trunc`
   - `nearest`
+  - `demote`
+  - `promote`
 
 ## Reference
 
