@@ -7,8 +7,6 @@ The lanes to select from are indicated using the immediates, with indices $[0-15
 
 Any lane for which an out of bound index is provided will be set to 0 in the resulting vector.
 
-$$[0-15]$$
-
 
 
 | Opcode      | Instruction       | Immediates        | Stack Arity |
