@@ -7,13 +7,13 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
 
 - [`const`](./numeric/const)
 - Comparisons
-  - [`eqz`](./numeric/eqz)
-  - [`eq`](./numeric/eq)
-  - [`ne`](./numeric/ne)
-  - [`lt`](./numeric/lt)
-  - [`gt`](./numeric/gt)
-  - [`le`](./numeric/le)
-  - [`ge`](./numeric/ge)
+  - [`eqz`](./numeric/eqz) (equals zero)
+  - [`eq`](./numeric/eq) (equals)
+  - [`ne`](./numeric/ne) (not equals)
+  - [`lt`](./numeric/lt) (less than)
+  - [`gt`](./numeric/gt) (greater than)
+  - [`le`](./numeric/le) (less than or equals)
+  - [`ge`](./numeric/ge) (greater than or equals)
 
 - `i32.eq`
 - `i64.eq`
