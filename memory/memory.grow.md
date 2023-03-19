@@ -25,13 +25,15 @@ Returns one result to the stack, an `i32` representing the previous total size o
 ;; Places 2 on the stack
 i32.const 2
 
-;; Takes one value off of the stack (2), and requests that many additional pages of memory
+;; Takes one value off of the stack (2), and requests that
+;; many additional pages of memory
 memory.grow
 
 ;; Places -1 on the stack
 i32.const -1
 
-;; Takes two values off of the stack (the result from memory.grow and -1) and compares them
+;; Takes two values off of the stack (the result from memory.grow
+;; and -1) and compares them
 i32.eq
 
 if
