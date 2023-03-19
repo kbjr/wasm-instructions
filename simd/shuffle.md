@@ -11,7 +11,7 @@ Any lane for which an out of bound index is provided will be set to 0 in the res
 
 | Opcode      | Instruction       | Immediates        | Stack Arity |
 |-------------|-------------------|-------------------|-------------|
-| `0xFD 0x0D` | `i8x16.shuffle`   | $const_{i32}[16]$ | $[ v128, v128 ] \to [ v128 ]$ |
+| `0xFD 0x0D` | `i8x16.shuffle`   | $i32_{const}[16]$ | $[ v128, v128 ] \to [ v128 ]$ |
 
 
 ## WAT Examples
