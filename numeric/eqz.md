@@ -10,8 +10,8 @@ _todo_
 
 | Opcode | Signature |
 |--------|-----------|
-| `0x45` | $i32.eqz \quad const_{i32} \quad [ ] \to [ i32 ]$ |
-| `0x50` | $i64.eqz \quad const_{i64} \quad [ ] \to [ i32 ]$ |
+| `0x45` | $i32.eqz \quad [ i32 ] \to [ i32 ]$ |
+| `0x50` | $i64.eqz \quad [ i64 ] \to [ i32 ]$ |
 
 
 
