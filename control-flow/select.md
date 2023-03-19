@@ -8,20 +8,17 @@ _todo: description_
 
 ## Signature
 
+### Opcode 0x1B
+
 ```katex
 select \quad [ numtype_1, numtype_1, i32 ] \to [ numtype_1 ]
 ```
 
+### Opcode 0x1C
+
 ```katex
 select \quad valtype(T_1) \quad [ T_1, T_1, i32 ] \to [ T_1 ]
 ```
-
-|  |  |
-|--|--|
-| Opcode | `0x40` |
-| Immediates | _none_ |
-| Parameters | `i32` |
-| Results | `i32` |
 
 
 
