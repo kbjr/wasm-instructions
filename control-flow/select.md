@@ -1,7 +1,7 @@
 
 # `select`
 
-Selects one of the first two parameters based on the value of the third parameter [^§2.4.4].
+Selects one of the first two parameters based on the value of the third parameter [[§2.4.4]].
 
 
 
@@ -46,6 +46,6 @@ select i32
 
 ## References
 
-[^§2.3.4]: https://webassembly.github.io/spec/core/bikeshed/index.html#syntax-valtype
-[^§2.4.4]: https://webassembly.github.io/spec/core/bikeshed/#parametric-instructions%E2%91%A0
+[§2.3.4]: https://webassembly.github.io/spec/core/bikeshed/index.html#syntax-valtype
+[§2.4.4]: https://webassembly.github.io/spec/core/bikeshed/#parametric-instructions%E2%91%A0
 
