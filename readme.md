@@ -15,10 +15,6 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
   - [`le`](./numeric/le) (less than or equals)
   - [`ge`](./numeric/ge) (greater than or equals)
 
-- `i32.eq`
-- `i64.eq`
-- `f32.eq`
-- `f64.eq`
 - `i32.ne`
 - `i64.ne`
 - `f32.ne`
