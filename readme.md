@@ -67,8 +67,8 @@ These instructions pertain to `v128` values, and their various formats.
   - [`load`](./simd/load.md)
   - [`store`](./simd/store.md)
 - Lane Operations
-  - [`shuffle`](./simd/shuffle.md) (shuffle lanes)
-  - `swizzle`
+  - [`shuffle`](./simd/shuffle.md) (shuffle together lanes from two vectors using immediate indices)
+  - [`swizzle`](./simd/swizzle.md) (swizzle lanes using stack indices)
   - `extract_lane` (get lane value)
   - `replace_lane` (set lane value)
 - `narrow`
