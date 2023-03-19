@@ -20,25 +20,25 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
   - [`mul`](./numeric/mul) (multiply)
   - [`div`](./numeric/div) (divide)
   - [`rem`](./numeric/rem) (remainder)
-- Bitwise
+- Bit Operations
   - [`clz`](./numeric/clz) (count leading zeros)
   - [`ctz`](./numeric/ctz) (count trailing zeros)
   - [`popcnt`](./numeric/popcnt) (population count)
-  - [`and`](./numeric/and)
-  - [`or`](./numeric/or)
-  - [`xor`](./numeric/xor)
+  - [`and`](./numeric/and) (bitwise and)
+  - [`or`](./numeric/or) (bitwise or)
+  - [`xor`](./numeric/xor) (bitwise xor)
   - [`shl`](./numeric/shl) (shift left)
   - [`shr`](./numeric/shr) (shift right)
   - [`rotl`](./numeric/rotl) (rotate left)
   - [`rotr`](./numeric/rotr) (rotate right)
 - Float Operations
-  - [`abs`](./numeric/abs)
-  - [`neg`](./numeric/neg)
-  - [`ceil`](./numeric/ceil)
-  - [`floor`](./numeric/floor)
+  - [`abs`](./numeric/abs) (absolute value)
+  - [`neg`](./numeric/neg) (negative)
+  - [`ceil`](./numeric/ceil) (ceiling / round up)
+  - [`floor`](./numeric/floor) (floor / round down)
   - [`trunc`](./numeric/f.trunc)
-  - [`nearest`](./numeric/nearest)
-  - [`sqrt`](./numeric/sqrt)
+  - [`nearest`](./numeric/nearest) (round to nearest)
+  - [`sqrt`](./numeric/sqrt) (square root)
   - [`min`](./numeric/min)
   - [`max`](./numeric/max)
   - [`copysign`](./numeric/copysign)
@@ -53,7 +53,7 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
   - [`reinterpret`](./numeric/reinterpret)
 
 
-## Vector
+## Vector / SIMD
 
 _todo_
 
@@ -80,7 +80,7 @@ _todo_
 
 - [`table.get`](./table/table.get)
 - [`table.set`](./table/table.set)
-_todo_
+- _todo_
 
 ## Memory
 
