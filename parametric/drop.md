@@ -5,9 +5,9 @@ Drop one value from the stack [^§2.4.4].
 
 
 
-| Opcode | Signature |
-|--------|-----------|
-| `0x1A` | $drop \quad [ T ] \to [ ]$ |
+| Opcode | Instruction | Stack Arity |
+|--------|-------------|-------------|
+| `0x1A` | `drop`      | $[ T ] \to [ ]$ |
 
 
 

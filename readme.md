@@ -5,6 +5,8 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
 
 ## Numeric
 
+These instructions pertain to the 4 "main" numeric data types: `i32`, `i64`, `f32`, and `f64`
+
 - [`const`](./numeric/const)
 - Comparisons
   - [`eqz`](./numeric/eqz) (equals zero)
