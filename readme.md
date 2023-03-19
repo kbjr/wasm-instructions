@@ -5,6 +5,8 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
 
 ## Numeric
 
+- [Constants](./numeric/const)
+
 ### Constants
 
 - [`i32.const`](./numeric/i32.const)
