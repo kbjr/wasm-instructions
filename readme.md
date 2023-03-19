@@ -7,7 +7,7 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
 
 These instructions pertain to the 4 "main" numeric data types: `i32`, `i64`, `f32`, and `f64`
 
-- [`const`](./numeric/const.md)
+- [`const`](./numeric/const.md) (declare constant)
 - Comparisons
   - [`eqz`](./numeric/eqz.md) (equals zero)
   - [`eq`](./numeric/eq.md) (equals)
@@ -59,14 +59,19 @@ These instructions pertain to the 4 "main" numeric data types: `i32`, `i64`, `f3
 
 These instructions pertain to `v128` values, and their various formats.
 
-- [`const`](./simd/const.md)
-- [`load`](./simd/load.md)
-- [`store`](./simd/store.md)
-- `shuffle`
-- `swizzle`
-- `splat`
-- `extract_lane`
-- `replace_lane`
+<!-- https://github.com/WebAssembly/simd/blob/main/proposals/simd/SIMD.md -->
+
+- [`const`](./simd/const.md) (declare constant vector)
+- [`splat`](./simd/splat.md) (create vector with identical lanes)
+- Memory
+  - [`load`](./simd/load.md)
+  - [`store`](./simd/store.md)
+- Lane Operations
+  - [`shuffle`](./simd/shuffle.md) (shuffle lanes)
+  - `swizzle`
+  - `extract_lane` (get lane value)
+  - `replace_lane` (set lane value)
+- `narrow`
 - Comparisons
   - [`eq`](./simd/eq.md) (equals)
   - [`ne`](./simd/ne.md) (not equals)
@@ -74,6 +79,15 @@ These instructions pertain to `v128` values, and their various formats.
   - [`gt`](./simd/gt.md) (greater than)
   - [`le`](./simd/le.md) (less than or equals)
   - [`ge`](./simd/ge.md) (greater than or equals)
+- Integer Arithmetic
+  - [`add`](./simd/i.add.md) (lane-wise add)
+  - `sub` (lane-wise subtract)
+  - `mul` (lane-wise multiply)
+  - `dot` (lane-wise dot product)
+  - `neg` (lane-wise negation)
+- Extended Integer Arithmetic
+  - `extmul` (extended multiplication)
+  - `extadd` (extended pairwise addition)
 - Saturating Integer Arithmetic
   - [`add_sat`](./simd/add_sat.md) (saturating add)
   - [`sub_sat`](./simd/sub_sat.md) (saturating subtract)
@@ -82,27 +96,20 @@ These instructions pertain to `v128` values, and their various formats.
   - [`max`](./simd/i.max.md) (select lane-wise maximum)
   - [`avgr`](./simd/avgr.md) (lane-wise rounding average)
   - [`abs`](./simd/i.abs.md) (lane-wise absolute value)
-- Bit Shifts
-  - [`shl`](./simd/shl.md) (shift left)
-  - [`shr`](./simd/shr.md) (shift right)
 - Bitwise Operations
-  - [`popcnt`](./simd/popcnt.md) (lane-wise population count)
   - `not` (bitwise not)
   - `and` (bitwise and)
   - `andnot` (bitwise and-not)
   - `or` (bitwise or)
   - `xor` (bitwise xor)
+  - [`shl`](./simd/shl.md) (lane-wise shift left)
+  - [`shr`](./simd/shr.md) (lane-wise shift right)
   - `bitselect` (bitwise select)
   - `bitmask` (bitmask extraction)
+  - [`popcnt`](./simd/popcnt.md) (lane-wise population count)
 - Boolean Horizontal Reductions
   - [`any_true`](./simd/any_true.md) (any bit not zero)
   - [`all_true`](./simd/all_true.md) (all lanes not zero)
-- Integer Operations
-  - `narrow`
-  - Arithmetic
-    - [`add`](./simd/i.add.md)
-    - `sub`
-    - `extadd_pairwise`
 - Floating Point Operations
   - [`neg`](./simd/neg.md) (lane-wise negation)
   - [`abs`](./simd/f.abs.md) (lane-wise absolute value)
