@@ -1,11 +1,7 @@
 
-# `memory.grow`
+# `select`
 
-Requests more memory be allocated to the WASM instance.
-
-Takes one parameter from the stack, an `i32` representing the number of pages to request; Each page is defined as 64KiB.
-
-Returns one result to the stack, an `i32` representing the previous total size of memory in pages, or `-1` if the operation failed.
+_todo: description_
 
 
 
@@ -13,7 +9,13 @@ Returns one result to the stack, an `i32` representing the previous total size o
 ## Signature
 
 ```katex
-memory.grow \quad [ i32 ] \to [ i32 ]
+T_1 ::= numtype
+select \quad [ T_1, T_1, i32 ] \to [ T_1 ]
+```
+
+```katex
+T_1 ::= valtype
+select \quad valtype(T_1) \quad [ T_1, T_1, i32 ] \to [ T_1 ]
 ```
 
 |  |  |
