@@ -5,7 +5,7 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
 
 ## Numeric
 
-- [Constants](./numeric/constants)
+- [`const`](./numeric/const)
 - Comparisons
   - [`eqz`](./numeric/eqz)
   - [`eq`](./numeric/eq)
@@ -14,10 +14,6 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
   - [`gt`](./numeric/gt)
   - [`le`](./numeric/le)
   - [`ge`](./numeric/ge)
-<!-- 
-### Comparisons
-
-#### `i32`
 
 - `i32.eqz`
 - `i32.eq`
@@ -30,9 +26,6 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
 - `i32.le_u`
 - `i32.ge_s`
 - `i32.ge_u`
-
-#### `i64`
-
 - `i64.eqz`
 - `i64.eq`
 - `i64.ne`
@@ -44,24 +37,18 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
 - `i64.le_u`
 - `i64.ge_s`
 - `i64.ge_u`
-
-#### `f32`
-
 - `f32.eq`
 - `f32.ne`
 - `f32.lt`
 - `f32.gt`
 - `f32.le`
 - `f32.ge`
-
-#### `f64`
-
 - `f64.eq`
 - `f64.ne`
 - `f64.lt`
 - `f64.gt`
 - `f64.le`
-- `f64.ge` -->
+- `f64.ge`
 
 ## Vector
 

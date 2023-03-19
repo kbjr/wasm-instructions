@@ -1,5 +1,5 @@
 
-# Numeric Constants
+# const
 
 Declares a numeric constant value (of type `i32`, `i64`, `f32`, or `f64`), placing it on the stack [^§2.4.1]
 
