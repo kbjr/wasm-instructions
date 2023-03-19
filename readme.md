@@ -56,8 +56,8 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
 ## Vector / SIMD
 
 - [`const`](./simd/const)
-- [`load](./simd/load)
-- [`store](./simd/store)
+- [`load`](./simd/load)
+- [`store`](./simd/store)
 - `shuffle`
 - `swizzle`
 - `splat`
@@ -89,7 +89,7 @@ Download metadata for all instructions in either [JSON](./instructions?format=js
   - Arithmetic
     - `abs`
     - `neg`
-    - `add`
+    - [`add`](./simd/i.add)
     - `sub`
 - Floating Point Operations
   - `f32x4.demote_f64x2_zero`
