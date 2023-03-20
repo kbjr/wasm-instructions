@@ -1,7 +1,11 @@
 
 # swizzle
 
-_todo_
+Selects values from the first vector operand to form a new vector [^§4.4.3.6].
+
+The lanes to select from are indicated using the second vector operand, with indices $[0-15]$ referring to the first operand [^§4.4.3.6].
+
+Any lane for which an out of bound index is provided will be set to 0 in the resulting vector [^§4.4.3.6].
 
 
 

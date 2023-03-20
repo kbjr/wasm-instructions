@@ -1,17 +1,15 @@
 
 # shuffle
 
-Selects values from the two vector operands, combining them together to result in a new vector.
+Selects values from the two vector operands, combining them together to result in a new vector [^§4.4.3.7].
 
-The lanes to select from are indicated using the immediates, with indices $[0-15]$ referring to the first operand, and $[16-31]$ referring to the second operand.
-
-Any lane for which an out of bound index is provided will be set to 0 in the resulting vector.
+The lanes to select from are indicated using the immediates, with indices $[0-15]$ referring to the first operand, and $[16-31]$ referring to the second operand [^§4.4.3.7].
 
 
 
-| Opcode      | Instruction       | Immediates        | Stack Arity |
-|-------------|-------------------|-------------------|-------------|
-| `0xFD 0x0D` | `i8x16.shuffle`   | $i32_{const}[16]$ | $[ v128, v128 ] \to [ v128 ]$ |
+| Opcode      | Instruction       | Immediates       | Stack Arity |
+|-------------|-------------------|------------------|-------------|
+| `0xFD 0x0D` | `i8x16.shuffle`   | $i5_{const}[16]$ | $[ v128, v128 ] \to [ v128 ]$ |
 
 
 ## WAT Examples
