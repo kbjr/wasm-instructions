@@ -17,49 +17,20 @@ For numeric values, see [`t.const`](../numeric/const.md)
 
 ## WAT Examples
 
-### Adding two constants
+### Defining different shapes of vectors
 
 ```wasm
-;; Places 10 on the stack
-i32.const 10
+v128.const i8x16 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32
 
-;; Places 20 on the stack
-i32.const 20
+v128.const i16x8 2 4 6 8 10 12 14 16
 
-;; Takes two values off of the stack (10 and 20), adds them, and
-;; places the result (30) on the stack
-i64.add
-```
+v128.const i32x4 2 4 6 8
 
-### Different ways to declare integers
+v128.const i64x2 2 4
 
-```wasm
-i32.const 10
-i32.const +20
-i64.const -30
+v128.const f32x4 2.1 4.2 6.3 8.4
 
-;; Integers can also be declared using hex format
-i32.const 0x6D
-```
-
-### Different ways to declare floats
-
-```wasm
-f32.const 30.5
-f32.const +32.57
-f64.const -41.99
-
-f64.const 12.34e+40
-
-;; Hex-Float Format
-f64.const 0x1p-1
-
-;; Infinity
-f64.const inf
-
-;; NaN
-f64.const nan
-f64.const nan:0x123
+v128.const f64x2 2.1 4.2
 ```
 
 
