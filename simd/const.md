@@ -36,6 +36,6 @@ v128.const f64x2 2.1 4.2
 
 ## References
 
-[^§2.4.1]: _WebAssembly Core Specification, Structure, Numeric Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A0>
-[^§4.4.1.1]: _WebAssembly Core Specification, Execution, Numeric Instructions, t.const c_ - <https://webassembly.github.io/spec/core/bikeshed/#-tmathsfhrefsyntax-instr-numericmathsfconstc%E2%91%A0>
+[^§2.4.2]: _WebAssembly Core Specification, Structure, Vector Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A0>
+[^§4.4.3.1]: _WebAssembly Core Specification, Execution, Vector Instructions, v128.const c_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-valtypemathsfv128mathsfhrefsyntax-instr-vecmathsfconstc%E2%91%A0>
 
