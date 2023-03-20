@@ -1,5 +1,5 @@
 
-# const
+# const (declare constant)
 
 Declares a numeric constant value (of type `i32`, `i64`, `f32`, or `f64`), placing it on the stack [^§4.4.1.1]
 
@@ -13,6 +13,10 @@ There are four different opcodes, to indicate the type of the value [^§2.4.1]
 | `0x42` | `i64.const` | $i64_{const}$ | $[ ] \to [ i64 ]$ |
 | `0x43` | `f32.const` | $f32_{const}$ | $[ ] \to [ f32 ]$ |
 | `0x44` | `f64.const` | $f64_{const}$ | $[ ] \to [ f64 ]$ |
+
+!!! {.info}
+For SIMD / Vectors, see [`v128.const`](../simd/const.md)
+!!!
 
 
 

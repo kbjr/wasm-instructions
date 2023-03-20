@@ -1,5 +1,5 @@
 
-# shuffle
+# shuffle (shuffle together lanes from two vectors using immediate indices)
 
 Selects values from the two vector operands, combining them together to result in a new vector [^§4.4.3.7].
 
