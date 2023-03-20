@@ -9,9 +9,9 @@ Any lane for which an out of bound index is provided will be set to 0 in the res
 
 
 
-| Opcode      | Instruction       | Stack Arity |
-|-------------|-------------------|-------------|
-| `0xFD 0x0E` | `i8x16.swizzle`   | $[ v128, v128 ] \to [ v128 ]$ |
+| Opcode    | Instruction       | Stack Arity |
+|-----------|-------------------|-------------|
+| `0xFD 13` | `i8x16.swizzle`   | $[ v128, v128 ] \to [ v128 ]$ |
 
 
 ## WAT Examples

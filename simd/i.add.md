@@ -5,11 +5,11 @@ _todo_
 
 
 
-| Opcode      | Instruction       | Stack Arity |
-|-------------|-------------------|-------------|
-| `0xFD 0x6E` | `i8x16.add`       | $[ v128, v128 ] \to [ v128 ]$ |
-| `0xFD 0x6F` | `i8x16.add_sat_s` | $[ v128, v128 ] \to [ v128 ]$ |
-| `0xFD 0x70` | `i8x16.add_sat_u` | $[ v128, v128 ] \to [ v128 ]$ |
+| Opcode     | Instruction       | Stack Arity |
+|------------|-------------------|-------------|
+| `0xFD 110` | `i8x16.add`       | $[ v128, v128 ] \to [ v128 ]$ |
+| `0xFD 111` | `i8x16.add_sat_s` | $[ v128, v128 ] \to [ v128 ]$ |
+| `0xFD 112` | `i8x16.add_sat_u` | $[ v128, v128 ] \to [ v128 ]$ |
 
 
 ## WAT Examples

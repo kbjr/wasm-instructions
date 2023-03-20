@@ -7,9 +7,9 @@ The lanes to select from are indicated using the immediates, with indices $[0-15
 
 
 
-| Opcode      | Instruction       | Immediates       | Stack Arity |
-|-------------|-------------------|------------------|-------------|
-| `0xFD 0x0D` | `i8x16.shuffle`   | $i5_{const}[16]$ | $[ v128, v128 ] \to [ v128 ]$ |
+| Opcode    | Instruction       | Immediates       | Stack Arity |
+|-----------|-------------------|------------------|-------------|
+| `0xFD 13` | `i8x16.shuffle`   | $i5_{const}[16]$ | $[ v128, v128 ] \to [ v128 ]$ |
 
 
 ## WAT Examples
