@@ -5,9 +5,9 @@ Declares a vector constant value (of type `v128`), placing it on the stack [^§4
 
 
 
-| Opcode | Instruction | Immediates    | Stack Arity |
-|--------|-------------|---------------|-------------|
-| `0x41` | `i32.const` | $i32_{const}$ | $[ ] \to [ i32 ]$ |
+| Opcode      | Instruction  | Immediates                     | Stack Arity |
+|-------------|--------------|--------------------------------|-------------|
+| `0xFD 0x0C` | `v128.const` | $valtype(T_{v128}), T_{const}$ | $[ ] \to [ T ]$ |
 
 !!! {.info}
 For numeric values, see [`t.const`](../numeric/const.md)
