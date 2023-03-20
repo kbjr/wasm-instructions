@@ -25,7 +25,7 @@ i32.const 20
 
 ;; Takes two values off of the stack (10 and 20), adds them, and
 ;; places the result (30) on the stack
-i64.add
+i32.add
 ```
 
 
