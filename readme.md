@@ -166,7 +166,7 @@ These instructions pertain to `v128` values, and their various formats.
 
 ## Memory
 
-- [`load`](./memory/load.md) (load a from memory and place it on the stack)
+- [`load`](./memory/load.md) (load a value from memory and place it on the stack)
 - [`store`](./memory/store.md) (store an operand to memory)
 - [`memory.size`](./memory/memory.size.md) (get the total size of memory)
 - [`memory.grow`](./memory/memory.grow.md) (request more memory)
