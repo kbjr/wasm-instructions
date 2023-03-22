@@ -17,10 +17,10 @@ These instructions pertain to the 4 "main" numeric data types: `i32`, `i64`, `f3
   - [`le`](./numeric/le.md) (less than or equals)
   - [`ge`](./numeric/ge.md) (greater than or equals)
 - Arithmetic
-  - [`add`](./numeric/add.md)
-  - [`sub`](./numeric/sub.md) (subtract)
-  - [`mul`](./numeric/mul.md) (multiply)
-  - [`div`](./numeric/div.md) (divide)
+  - [`add`](./numeric/add.md) (addition)
+  - [`sub`](./numeric/sub.md) (subtraction)
+  - [`mul`](./numeric/mul.md) (multiplication)
+  - [`div`](./numeric/div.md) (division)
   - [`rem`](./numeric/rem.md) (remainder)
 - Bitwise Operations
   - [`clz`](./numeric/clz.md) (count leading zeros)
@@ -38,7 +38,7 @@ These instructions pertain to the 4 "main" numeric data types: `i32`, `i64`, `f3
   - [`neg`](./numeric/neg.md) (negative)
   - [`ceil`](./numeric/ceil.md) (ceiling / round up)
   - [`floor`](./numeric/floor.md) (floor / round down)
-  - [`trunc`](./numeric/f.trunc.md) (truncate)
+  - [`trunc`](./numeric/f.trunc.md) (truncate / round toward zero)
   - [`nearest`](./numeric/nearest.md) (round to nearest)
   - [`sqrt`](./numeric/sqrt.md) (square root)
   - [`min`](./numeric/min.md) (select minimum)
@@ -69,8 +69,8 @@ These instructions pertain to `v128` values, and their various formats.
 - Lane Operations
   - [`shuffle`](./simd/shuffle.md) (shuffle together lanes from two vectors using immediate indices)
   - [`swizzle`](./simd/swizzle.md) (swizzle lanes using stack indices)
-  - `extract_lane` (get lane value)
-  - `replace_lane` (set lane value)
+  - [`extract_lane`](./simd/extract_lane.md) (get lane value)
+  - [`replace_lane`](./simd/replace_lane.md) (set lane value)
 - `narrow`
 - Comparisons
   - [`eq`](./simd/eq.md) (equals)
@@ -81,13 +81,13 @@ These instructions pertain to `v128` values, and their various formats.
   - [`ge`](./simd/ge.md) (greater than or equals)
 - Integer Arithmetic
   - [`add`](./simd/i.add.md) (lane-wise add)
-  - `sub` (lane-wise subtract)
-  - `mul` (lane-wise multiply)
-  - `dot` (lane-wise dot product)
-  - `neg` (lane-wise negation)
+  - [`sub`](./simd/i.sub.md) (lane-wise subtract)
+  - [`mul`](./simd/i.mul.md) (lane-wise multiply)
+  - [`dot`](./simd/dot.md) (lane-wise dot product)
+  - [`neg`](./simd/i.neg.md) (lane-wise negation)
 - Extended Integer Arithmetic
-  - `extmul` (extended multiplication)
-  - `extadd` (extended pairwise addition)
+  - [`extmul`](./simd/extmul.md) (extended multiplication)
+  - [`extadd`](./simd/extadd.md) (extended pairwise addition)
 - Saturating Integer Arithmetic
   - [`add_sat`](./simd/add_sat.md) (saturating add)
   - [`sub_sat`](./simd/sub_sat.md) (saturating subtract)
@@ -97,32 +97,43 @@ These instructions pertain to `v128` values, and their various formats.
   - [`avgr`](./simd/avgr.md) (lane-wise rounding average)
   - [`abs`](./simd/i.abs.md) (lane-wise absolute value)
 - Bitwise Operations
-  - `not` (bitwise not)
-  - `and` (bitwise and)
-  - `andnot` (bitwise and-not)
-  - `or` (bitwise or)
-  - `xor` (bitwise xor)
+  - [`not`](./simd/not.md) (bitwise not)
+  - [`and`](./simd/and.md) (bitwise and)
+  - [`andnot`](./simd/andnot.md) (bitwise and-not)
+  - [`or`](./simd/or.md) (bitwise or)
+  - [`xor`](./simd/xor.md) (bitwise xor)
   - [`shl`](./simd/shl.md) (lane-wise shift left)
   - [`shr`](./simd/shr.md) (lane-wise shift right)
-  - `bitselect` (bitwise select)
-  - `bitmask` (bitmask extraction)
+  - [`bitselect`](./simd/bitselect.md) (bitwise select)
+  - [`bitmask`](./simd/bitmask.md) (bitmask extraction)
   - [`popcnt`](./simd/popcnt.md) (lane-wise population count)
 - Boolean Horizontal Reductions
   - [`any_true`](./simd/any_true.md) (any bit not zero)
   - [`all_true`](./simd/all_true.md) (all lanes not zero)
-- Floating Point Operations
-  - [`neg`](./simd/neg.md) (lane-wise negation)
+- Floating-point Operations
+  - [`neg`](./simd/f.neg.md) (lane-wise negation)
   - [`abs`](./simd/f.abs.md) (lane-wise absolute value)
   - [`min`](./simd/f.min.md) (NaN-propagating lane-wise select minimum)
   - [`max`](./simd/f.max.md) (NaN-propagating lane-wise select maximum)
   - [`pmin`](./simd/pmin.md) (lane-wise select psuedo-minimum)
   - [`pmax`](./simd/pmax.md) (lane-wise select psuedo-maximum)
-  - `ceil`
-  - `floor`
-  - `trunc`
-  - `nearest`
-  - `demote`
-  - `promote`
+- Floating-point Arithmetic
+  - [`add`](./simd/f.add.md) (addition)
+  - [`sub`](./simd/f.sub.md) (subtraction)
+  - [`div`](./simd/f.div.md) (division)
+  - [`mul`](./simd/f.mul.md) (multiplication)
+  - [`sqrt`](./simd/f.sqrt.md) (square root)
+  - [`ceil`](./simd/ceil.md) (ceiling / round up)
+  - [`floor`](./simd/floor.md) (floor / round down)
+  - [`trunc`](./simd/trunc.md) (truncate / round toward zero)
+  - [`nearest`](./simd/nearest.md) (round to nearest)
+- Conversions
+  - [`convert`](./simd/convert.md) (convert i32 to floating-point)
+  - [`trunc_sat`](./simd/trunc_sat.md) (convert floating-point to i32 with satruation)
+  - [`demote`](./simd/demote.md) (convert f64 to f32)
+  - [`promote`](./simd/promote.md) (convert f32 to f64)
+  - [`narrow`](./simd/narrow.md) (integer narrowing)
+  - [`extend`](./simd/extend.md) (integer extension)
 
 ## Reference
 
@@ -137,17 +148,22 @@ These instructions pertain to `v128` values, and their various formats.
 
 ## Variable
 
-- [`local.get`](./variable/local.get.md)
-- [`local.set`](./variable/local.set.md)
-- [`local.tee`](./variable/local.tee.md)
-- [`global.get`](./variable/global.get.md)
-- [`global.set`](./variable/global.set.md)
+- [`local.get`](./variable/local.get.md) (push local variable to stack)
+- [`local.set`](./variable/local.set.md) (pop stack value and write to local variable)
+- [`local.tee`](./variable/local.tee.md) (write top of stack to local variable without pop)
+- [`global.get`](./variable/global.get.md) (push global variable to stack)
+- [`global.set`](./variable/global.set.md) (pop stack value and write to global variable)
 
 ## Table
 
 - [`table.get`](./table/table.get.md)
 - [`table.set`](./table/table.set.md)
-- _todo_
+- [`table.size`](./table/table.size.md)
+- [`table.grow`](./table/table.grow.md)
+- [`table.init`](./table/table.init.md)
+- [`elem.drop`](./table/elem.drop.md)
+- [`table.copy`](./table/table.copy.md)
+- [`table.fill`](./table/table.fill.md)
 
 ## Memory
 
@@ -155,19 +171,23 @@ These instructions pertain to `v128` values, and their various formats.
 - [`store`](./memory/store.md)
 - [`memory.size`](./memory/memory.size.md)
 - [`memory.grow`](./memory/memory.grow.md)
+- [`memory.init`](./memory/memory.init.md)
+- [`data.drop`](./memory/data.drop.md)
+- [`memory.copy`](./memory/memory.copy.md)
+- [`memory.fill`](./memory/memory.fill.md)
 
 ## Control
 
-- `unreachable`
-- `nop`
-- `block`
-- `loop`
-- `if`
-- `else`
-- `end`
-- `br`
-- `br_if`
-- `br_table`
-- `return`
-- `call`
-- `call_indirect`
+- [`unreachable`](./control-flow/unreachable.md)
+- [`nop`](./control-flow/nop.md)
+- [`block`](./control-flow/block.md)
+- [`loop`](./control-flow/loop.md)
+- [`if`](./control-flow/if.md)
+- [`else`](./control-flow/else.md)
+- [`end`](./control-flow/end.md)
+- [`br`](./control-flow/br.md)
+- [`br_if`](./control-flow/br_if.md)
+- [`br_table`](./control-flow/br_table.md)
+- [`return`](./control-flow/return.md)
+- [`call`](./control-flow/call.md)
+- [`call_indirect`](./control-flow/call_indirect.md)
