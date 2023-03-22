@@ -1,0 +1,15 @@
+
+- `i32.load`
+- `i64.load`
+- `f32.load`
+- `f64.load`
+- `i32.load8_s`
+- `i32.load8_u`
+- `i32.load16_s`
+- `i32.load16_u`
+- `i64.load8_s`
+- `i64.load8_u`
+- `i64.load16_s`
+- `i64.load16_u`
+- `i64.load32_s`
+- `i64.load32_u`

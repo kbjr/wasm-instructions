@@ -151,29 +151,8 @@ These instructions pertain to `v128` values, and their various formats.
 
 ## Memory
 
-- `i32.load`
-- `i64.load`
-- `f32.load`
-- `f64.load`
-- `i32.load8_s`
-- `i32.load8_u`
-- `i32.load16_s`
-- `i32.load16_u`
-- `i64.load8_s`
-- `i64.load8_u`
-- `i64.load16_s`
-- `i64.load16_u`
-- `i64.load32_s`
-- `i64.load32_u`
-- `i32.store`
-- `i64.store`
-- `f32.store`
-- `f64.store`
-- `i32.store8`
-- `i32.store16`
-- `i64.store8`
-- `i64.store16`
-- `i64.store32`
+- [`load`](./memory/load.md)
+- [`store`](./memory/store.md)
 - [`memory.size`](./memory/memory.size.md)
 - [`memory.grow`](./memory/memory.grow.md)
 
