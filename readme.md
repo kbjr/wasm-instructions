@@ -143,8 +143,8 @@ These instructions pertain to `v128` values, and their various formats.
 
 ## Parametric
 
-- [`drop`](./parametric/drop.md)
-- [`select`](./parametric/select.md)
+- [`drop`](./parametric/drop.md) (drop the top value from the stack)
+- [`select`](./parametric/select.md) (conditionally select an operand)
 
 ## Variable
 
