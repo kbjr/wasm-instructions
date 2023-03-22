@@ -71,7 +71,6 @@ These instructions pertain to `v128` values, and their various formats.
   - [`swizzle`](./simd/swizzle.md) (swizzle lanes using stack indices)
   - [`extract_lane`](./simd/extract_lane.md) (get lane value)
   - [`replace_lane`](./simd/replace_lane.md) (set lane value)
-- `narrow`
 - Comparisons
   - [`eq`](./simd/eq.md) (equals)
   - [`ne`](./simd/ne.md) (not equals)
@@ -80,18 +79,18 @@ These instructions pertain to `v128` values, and their various formats.
   - [`le`](./simd/le.md) (less than or equals)
   - [`ge`](./simd/ge.md) (greater than or equals)
 - Integer Arithmetic
-  - [`add`](./simd/i.add.md) (lane-wise add)
-  - [`sub`](./simd/i.sub.md) (lane-wise subtract)
-  - [`mul`](./simd/i.mul.md) (lane-wise multiply)
+  - [`add`](./simd/i.add.md) (lane-wise addition)
+  - [`sub`](./simd/i.sub.md) (lane-wise subtraction)
+  - [`mul`](./simd/i.mul.md) (lane-wise multiplication)
   - [`dot`](./simd/dot.md) (lane-wise dot product)
   - [`neg`](./simd/i.neg.md) (lane-wise negation)
 - Extended Integer Arithmetic
   - [`extmul`](./simd/extmul.md) (extended multiplication)
   - [`extadd`](./simd/extadd.md) (extended pairwise addition)
 - Saturating Integer Arithmetic
-  - [`add_sat`](./simd/add_sat.md) (saturating add)
-  - [`sub_sat`](./simd/sub_sat.md) (saturating subtract)
-  - [`q15mulr_sat`](./simd/q15mulr_sat.md) (saturating Q-format rounding multiply)
+  - [`add_sat`](./simd/add_sat.md) (saturating addition)
+  - [`sub_sat`](./simd/sub_sat.md) (saturating subtraction)
+  - [`q15mulr_sat`](./simd/q15mulr_sat.md) (saturating Q-format rounding multiplication)
   - [`min`](./simd/i.min.md) (select lane-wise minimum)
   - [`max`](./simd/i.max.md) (select lane-wise maximum)
   - [`avgr`](./simd/avgr.md) (lane-wise rounding average)
@@ -167,10 +166,10 @@ These instructions pertain to `v128` values, and their various formats.
 
 ## Memory
 
-- [`load`](./memory/load.md)
-- [`store`](./memory/store.md)
-- [`memory.size`](./memory/memory.size.md)
-- [`memory.grow`](./memory/memory.grow.md)
+- [`load`](./memory/load.md) (load a from memory and place it on the stack)
+- [`store`](./memory/store.md) (store an operand to memory)
+- [`memory.size`](./memory/memory.size.md) (get the total size of memory)
+- [`memory.grow`](./memory/memory.grow.md) (request more memory)
 - [`memory.init`](./memory/memory.init.md)
 - [`data.drop`](./memory/data.drop.md)
 - [`memory.copy`](./memory/memory.copy.md)

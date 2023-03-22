@@ -1,5 +1,5 @@
 
-# `memory.grow`
+# `memory.grow` (request more memory)
 
 Requests more memory be allocated to the WASM instance [^§2.4.7].
 
