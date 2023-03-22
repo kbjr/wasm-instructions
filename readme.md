@@ -137,9 +137,9 @@ These instructions pertain to `v128` values, and their various formats.
 
 ## Reference
 
-- [`ref.null`](./reference/null.md)
-- [`ref.is_null`](./reference/is_null.md)
-- [`ref.func`](./reference/func.md)
+- [`ref.null`](./reference/null.md) (place a null reference on the stack)
+- [`ref.is_null`](./reference/is_null.md) (check if a reference is null)
+- [`ref.func`](./reference/func.md) (place a `funcref` on the stack)
 
 ## Parametric
 
