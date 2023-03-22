@@ -21,7 +21,7 @@ There are 6 opcodes, to indicate the size of the operand and shape of the result
 
 ## WAT Examples
 
-### Defining different shapes of vectors
+### Creating a vector be repeating a constant
 
 ```wasm
 ;; Place a value (10) on the stack to be the repeated operand
