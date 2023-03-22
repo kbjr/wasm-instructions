@@ -129,7 +129,7 @@ These instructions pertain to `v128` values, and their various formats.
   - [`nearest`](./simd/nearest.md) (round to nearest)
 - Conversions
   - [`convert`](./simd/convert.md) (convert `i32` to floating-point)
-  - [`trunc_sat`](./simd/trunc_sat.md) (convert floating-point to `i32` with satruation)
+  - [`trunc_sat`](./simd/trunc_sat.md) (convert floating-point to `i32` with saturation)
   - [`demote`](./simd/demote.md) (convert `f64` to `f32`)
   - [`promote`](./simd/promote.md) (convert `f32` to `f64`)
   - [`narrow`](./simd/narrow.md) (integer narrowing)
