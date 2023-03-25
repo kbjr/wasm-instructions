@@ -7,10 +7,10 @@ _todo_
 
 | Opcode     | Instruction       | Stack Arity |
 |------------|-------------------|-------------|
-| `0xFD 111` | `i8x16.add_sat_s` | $[ v128, v128 ] \to [ v128 ]$ |
-| `0xFD 112` | `i8x16.add_sat_u` | $[ v128, v128 ] \to [ v128 ]$ |
-| `0xFD 143` | `i16x8.add_sat_s` | $[ v128, v128 ] \to [ v128 ]$ |
-| `0xFD 144` | `i16x8.add_sat_u` | $[ v128, v128 ] \to [ v128 ]$ |
+| `0xFD 111` | `i8x16.add_sat_s` | $[ \text{v128}, \text{v128} ] \to [ \text{v128} ]$ |
+| `0xFD 112` | `i8x16.add_sat_u` | $[ \text{v128}, \text{v128} ] \to [ \text{v128} ]$ |
+| `0xFD 143` | `i16x8.add_sat_s` | $[ \text{v128}, \text{v128} ] \to [ \text{v128} ]$ |
+| `0xFD 144` | `i16x8.add_sat_u` | $[ \text{v128}, \text{v128} ] \to [ \text{v128} ]$ |
 
 
 ## WAT Examples
