@@ -177,8 +177,8 @@ These instructions pertain to `v128` values, and their various formats.
 
 ## Control
 
-- [`unreachable`](./control-flow/unreachable.md)
-- [`nop`](./control-flow/nop.md)
+- [`unreachable`](./control-flow/unreachable.md) (indicates an unreachable section; traps)
+- [`nop`](./control-flow/nop.md) (no-op; does nothing)
 - [`block`](./control-flow/block.md)
 - [`loop`](./control-flow/loop.md)
 - [`if`](./control-flow/if.md)
