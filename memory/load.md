@@ -5,22 +5,22 @@ _todo_
 
 
 
-| Opcode | Instruction    | Immediates                          | Stack Arity |
-|--------|----------------|-------------------------------------|-------------|
-| `0x28` | `i32.load`     | $align_{u32},\enspace offset_{u32}$ | $[ i32 ] \to [ i32 ]$ |
-| `0x29` | `i64.load`     | $align_{u32},\enspace offset_{u32}$ | $[ i32 ] \to [ i64 ]$ |
-| `0x2A` | `f32.load`     | $align_{u32},\enspace offset_{u32}$ | $[ i32 ] \to [ f32 ]$ |
-| `0x2B` | `f64.load`     | $align_{u32},\enspace offset_{u32}$ | $[ i32 ] \to [ f64 ]$ |
-| `0x2C` | `i32.load8_s`  | $align_{u32},\enspace offset_{u32}$ | $[ i32 ] \to [ i32 ]$ |
-| `0x2D` | `i32.load8_u`  | $align_{u32},\enspace offset_{u32}$ | $[ i32 ] \to [ i32 ]$ |
-| `0x2E` | `i32.load16_s` | $align_{u32},\enspace offset_{u32}$ | $[ i32 ] \to [ i32 ]$ |
-| `0x2F` | `i32.load16_u` | $align_{u32},\enspace offset_{u32}$ | $[ i32 ] \to [ i32 ]$ |
-| `0x30` | `i64.load8_s`  | $align_{u32},\enspace offset_{u32}$ | $[ i32 ] \to [ i64 ]$ |
-| `0x31` | `i64.load8_u`  | $align_{u32},\enspace offset_{u32}$ | $[ i32 ] \to [ i64 ]$ |
-| `0x32` | `i64.load16_s` | $align_{u32},\enspace offset_{u32}$ | $[ i32 ] \to [ i64 ]$ |
-| `0x33` | `i64.load16_u` | $align_{u32},\enspace offset_{u32}$ | $[ i32 ] \to [ i64 ]$ |
-| `0x34` | `i64.load32_s` | $align_{u32},\enspace offset_{u32}$ | $[ i32 ] \to [ i64 ]$ |
-| `0x35` | `i64.load32_u` | $align_{u32},\enspace offset_{u32}$ | $[ i32 ] \to [ i64 ]$ |
+| Opcode | Instruction    | Immediates    | Stack Arity |
+|--------|----------------|---------------|-------------|
+| `0x28` | `i32.load`     | $\wasmmemarg$ | $[ \text{i32} ] \to [ \text{i32} ]$ |
+| `0x29` | `i64.load`     | $\wasmmemarg$ | $[ \text{i32} ] \to [ \text{i64} ]$ |
+| `0x2A` | `f32.load`     | $\wasmmemarg$ | $[ \text{i32} ] \to [ \text{f32} ]$ |
+| `0x2B` | `f64.load`     | $\wasmmemarg$ | $[ \text{i32} ] \to [ \text{f64} ]$ |
+| `0x2C` | `i32.load8_s`  | $\wasmmemarg$ | $[ \text{i32} ] \to [ \text{i32} ]$ |
+| `0x2D` | `i32.load8_u`  | $\wasmmemarg$ | $[ \text{i32} ] \to [ \text{i32} ]$ |
+| `0x2E` | `i32.load16_s` | $\wasmmemarg$ | $[ \text{i32} ] \to [ \text{i32} ]$ |
+| `0x2F` | `i32.load16_u` | $\wasmmemarg$ | $[ \text{i32} ] \to [ \text{i32} ]$ |
+| `0x30` | `i64.load8_s`  | $\wasmmemarg$ | $[ \text{i32} ] \to [ \text{i64} ]$ |
+| `0x31` | `i64.load8_u`  | $\wasmmemarg$ | $[ \text{i32} ] \to [ \text{i64} ]$ |
+| `0x32` | `i64.load16_s` | $\wasmmemarg$ | $[ \text{i32} ] \to [ \text{i64} ]$ |
+| `0x33` | `i64.load16_u` | $\wasmmemarg$ | $[ \text{i32} ] \to [ \text{i64} ]$ |
+| `0x34` | `i64.load32_s` | $\wasmmemarg$ | $[ \text{i32} ] \to [ \text{i64} ]$ |
+| `0x35` | `i64.load32_u` | $\wasmmemarg$ | $[ \text{i32} ] \to [ \text{i64} ]$ |
 
 
 
