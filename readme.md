@@ -3,6 +3,8 @@
 
 <!-- Download metadata for all instructions in either [JSON](./instructions?format=json) or [YAML](./instructions?format=yaml) formats. -->
 
+<!-- 2.0 Changelog: https://webassembly.github.io/spec/core/bikeshed/#release-20 -->
+
 ## Numeric
 
 These instructions pertain to the 4 "main" numeric data types: `i32`, `i64`, `f32`, and `f64`
