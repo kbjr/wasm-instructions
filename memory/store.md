@@ -7,15 +7,15 @@ _todo_
 
 | Opcode | Instruction    | Immediates    | Stack Arity |
 |--------|----------------|---------------|-------------|
-| `0x36` | `i32.store`    | $\wasmmemarg$ | $[ \text{i32}, \text{i32} ] \to [ ]$ |
-| `0x37` | `i64.store`    | $\wasmmemarg$ | $[ \text{i32}, \text{i64} ] \to [ ]$ |
-| `0x38` | `f32.store`    | $\wasmmemarg$ | $[ \text{i32}, \text{f32} ] \to [ ]$ |
-| `0x39` | `f64.store`    | $\wasmmemarg$ | $[ \text{i32}, \text{f64} ] \to [ ]$ |
-| `0x3A` | `i32.store8`   | $\wasmmemarg$ | $[ \text{i32}, \text{i32} ] \to [ ]$ |
-| `0x3B` | `i32.store16`  | $\wasmmemarg$ | $[ \text{i32}, \text{i32} ] \to [ ]$ |
-| `0x3C` | `i64.store8`   | $\wasmmemarg$ | $[ \text{i32}, \text{i64} ] \to [ ]$ |
-| `0x3D` | `i64.store16`  | $\wasmmemarg$ | $[ \text{i32}, \text{i64} ] \to [ ]$ |
-| `0x3E` | `i64.store32`  | $\wasmmemarg$ | $[ \text{i32}, \text{i64} ] \to [ ]$ |
+| `0x36` | `i32.store`    | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32}, \text{i32} ] \to [ ]$ |
+| `0x37` | `i64.store`    | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32}, \text{i64} ] \to [ ]$ |
+| `0x38` | `f32.store`    | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32}, \text{f32} ] \to [ ]$ |
+| `0x39` | `f64.store`    | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32}, \text{f64} ] \to [ ]$ |
+| `0x3A` | `i32.store8`   | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32}, \text{i32} ] \to [ ]$ |
+| `0x3B` | `i32.store16`  | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32}, \text{i32} ] \to [ ]$ |
+| `0x3C` | `i64.store8`   | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32}, \text{i64} ] \to [ ]$ |
+| `0x3D` | `i64.store16`  | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32}, \text{i64} ] \to [ ]$ |
+| `0x3E` | `i64.store32`  | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32}, \text{i64} ] \to [ ]$ |
 
 
 
