@@ -1,5 +1,5 @@
 
-# sub
+# sub (subtraction)
 
 _todo_
 
