@@ -7,12 +7,12 @@ _todo_
 
 | Opcode | Instruction | Signature |
 |--------|-------------|-----------|
-| `0x4E` | `i32.ge_s`  | $[ i32, i32 ] \to [ i32 ]$ |
-| `0x4F` | `i32.ge_u`  | $[ i32, i32 ] \to [ i32 ]$ |
-| `0x5C` | `i64.ge_s`  | $[ i64, i64 ] \to [ i32 ]$ |
-| `0x5D` | `i64.ge_u`  | $[ i64, i64 ] \to [ i32 ]$ |
-| `0x60` | `f32.ge`    | $[ f32, f32 ] \to [ i32 ]$ |
-| `0x66` | `f64.ge`    | $[ f64, f64 ] \to [ i32 ]$ |
+| `0x4E` | `i32.ge_s`  | $[ \text{i32}, \text{i32} ] \to [ \text{i32} ]$ |
+| `0x4F` | `i32.ge_u`  | $[ \text{i32}, \text{i32} ] \to [ \text{i32} ]$ |
+| `0x5C` | `i64.ge_s`  | $[ \text{i64}, \text{i64} ] \to [ \text{i32} ]$ |
+| `0x5D` | `i64.ge_u`  | $[ \text{i64}, \text{i64} ] \to [ \text{i32} ]$ |
+| `0x60` | `f32.ge`    | $[ \text{f32}, \text{f32} ] \to [ \text{i32} ]$ |
+| `0x66` | `f64.ge`    | $[ \text{f64}, \text{f64} ] \to [ \text{i32} ]$ |
 
 
 

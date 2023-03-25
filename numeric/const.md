@@ -9,10 +9,10 @@ There are four different opcodes, to indicate the type of the value [^§2.4.1]
 
 | Opcode | Instruction | Immediates    | Stack Arity |
 |--------|-------------|---------------|-------------|
-| `0x41` | `i32.const` | $i32_{const}$ | $[ ] \to [ i32 ]$ |
-| `0x42` | `i64.const` | $i64_{const}$ | $[ ] \to [ i64 ]$ |
-| `0x43` | `f32.const` | $f32_{const}$ | $[ ] \to [ f32 ]$ |
-| `0x44` | `f64.const` | $f64_{const}$ | $[ ] \to [ f64 ]$ |
+| `0x41` | `i32.const` | $\text{i32}_\text{const}$ | $[ ] \to [ \text{i32} ]$ |
+| `0x42` | `i64.const` | $\text{i64}_\text{const}$ | $[ ] \to [ \text{i64} ]$ |
+| `0x43` | `f32.const` | $\text{f32}_\text{const}$ | $[ ] \to [ \text{f32} ]$ |
+| `0x44` | `f64.const` | $\text{f64}_\text{const}$ | $[ ] \to [ \text{f64} ]$ |
 
 !!! {.info}
 For SIMD / Vectors, see [`v128.const`](../simd/const.md)
