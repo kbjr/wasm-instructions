@@ -5,6 +5,16 @@ Drop one value from the stack [^§2.4.4] [^§4.4.4-drop].
 
 
 
+## Signature
+
+$$
+\mathsf{drop} \enspace (T) \to \varnothing
+$$
+
+
+
+## Instructions
+
 | Opcode | Instruction | Stack Arity     |
 |--------|-------------|-----------------|
 | `0x1A` | `drop`      | $[ T ] \to [ ]$ |
