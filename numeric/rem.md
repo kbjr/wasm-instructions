@@ -34,5 +34,5 @@ i32.rem_u
 
 [^§2.4.1]: _WebAssembly Core Specification, Structure, Numeric Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A0>
 [^§4.3.2.8]: _WebAssembly Core Specification, Execution, Numerics, Integer Operations, irem_un_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-irem-umathrmirem_u_n-i_1-i_2>
-[^§4.3.2.9]: _WebAssembly Core Specification, Execution, Numerics, Integer Operations, $\text{irem_s}_{n}$_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-irem-smathrmirem_s_n-i_1-i_2>
+[^§4.3.2.9]: _WebAssembly Core Specification, Execution, Numerics, Integer Operations, irem_sn_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-irem-smathrmirem_s_n-i_1-i_2>
 
