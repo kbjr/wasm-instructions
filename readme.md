@@ -12,7 +12,7 @@
 These instructions pertain to the 4 "main" numeric data types: `i32`, `i64`, `f32`, and `f64`
 
 - [`const`](./numeric/const.md) (declare constant)
-- Comparisons
+- #### Comparisons
   - [`eqz`](./numeric/eqz.md) (equals zero)
   - [`eq`](./numeric/eq.md) (equals)
   - [`ne`](./numeric/ne.md) (not equals)
