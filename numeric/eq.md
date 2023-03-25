@@ -21,5 +21,9 @@ _todo_
 
 ## References
 
-[^§2.4.1]: _WebAssembly Core Specification: Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
+### WebAssembly Core Specification
+
+[^§2.4.1]: _Structure, Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
+[^§4.3.2-ieq]: _Execution, Numerics, Integer Operations, ieq_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-ieq>
+[^§4.3.3-feq]: _Execution, Numerics, Floating-Point Operations, feq_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-feq>
 

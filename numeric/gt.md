@@ -23,5 +23,10 @@ _todo_
 
 ## References
 
-[^§2.4.1]: _WebAssembly Core Specification: Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
+### WebAssembly Core Specification
+
+[^§2.4.1]: _Structure, Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
+[^§4.3.2-igt-u]: _Execution, Numerics, Integer Operations, igt_u_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-igt-u>
+[^§4.3.2-igt-s]: _Execution, Numerics, Integer Operations, igt_s_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-igt-s>
+[^§4.3.3-fgt]: _Execution, Numerics, Floating-Point Operations, fgt_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-fgt>
 
