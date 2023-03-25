@@ -1,5 +1,5 @@
 
-# popcnt (count trailing zeros)
+# popcnt (population count)
 
 _todo_
 
