@@ -9,6 +9,19 @@ Otherwise, the `valtype` immediate declares the result type [^§2.4.4].
 
 
 
+## Signature
+
+$$
+\mathsf{select} \enspace \mathsf{valtype}(T_1)^? \enspace (a: T_1, b: T_1, c: \mathsf{i32}) \to \begin{cases}
+  a &\text{if } c \not = 0 \\
+  b &\text{if } c = 0
+\end{cases}
+$$
+
+
+
+## Instructions
+
 | Opcode | Instruction | Immediates              | Stack Arity |
 |--------|-------------|-------------------------|-------------|
 | `0x1B` | `select`    | _none_                  | $[ \mathsf{numtype}_1, \mathsf{numtype}_1, \mathsf{i32} ] \to [ \mathsf{numtype}_1 ]$ |
