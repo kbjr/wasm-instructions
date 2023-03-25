@@ -38,6 +38,7 @@ i32.store
 
 ## References
 
-[^§2.4.7]: _WebAssembly Core Specification, Structure, Memory Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A0>
-[^§4.4.7.6]: _WebAssembly Core Specification, Execution, Memory Instructions, t.store memarg and t.storeN memarg_ - <https://webassembly.github.io/spec/core/bikeshed/#-tmathsfhrefsyntax-instr-memorymathsfstorehrefsyntax-memargmathitmemarg-and--tmathsfhrefsyntax-instr-memorymathsfstorenhrefsyntax-memargmathitmemarg>
+### WebAssembly Core Specification
 
+[^§2.4.7]: _Structure, Memory Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#memory-instructions>
+[^§4.4.7.1-store]: _Execution, Memory Instructions, store_ - <https://www.w3.org/TR/wasm-core-2/exec/instructions.html#exec-store>

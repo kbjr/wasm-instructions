@@ -32,7 +32,7 @@ i32.sub
 
 ## References
 
-[^§2.4.1]: _WebAssembly Core Specification, Structure, Numeric Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A0>
-[^§4.3.2.4]: _WebAssembly Core Specification, Execution, Numerics, Integer Operations, isubn_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-isubmathrmisub_n-i_1-i_2>
+[^§2.4.1]: _WebAssembly Core Specification, Structure, Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
+[^§4.3.2.4]: _WebAssembly Core Specification, Execution, Numerics, Integer Operations, isubn_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-isub>
 [^§4.3.3.4]: _WebAssembly Core Specification, Execution, Numerics, Floating-Point Operations, fsubn_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-fsubmathrmfsub_n-z_1-z_2>
 

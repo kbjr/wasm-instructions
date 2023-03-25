@@ -23,5 +23,7 @@ memory.size
 
 ## References
 
-[^§2.4.7]: _WebAssembly Core Specification: Memory Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#memory-instructions%E2%91%A0>
-[^§4.2.8]: _WebAssembly Core Specification: Memory Instances_ - <https://webassembly.github.io/spec/core/bikeshed/index.html#page-size>
+### WebAssembly Core Specification
+
+[^§2.4.7]: _Structure, Memory Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#memory-instructions>
+[^§4.2.8]: _Execution, Runtime Structure, Memory Instances_ - <https://www.w3.org/TR/wasm-core-2/exec/runtime.html#memory-instances>

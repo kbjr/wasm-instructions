@@ -3,7 +3,9 @@
 
 <!-- Download metadata for all instructions in either [JSON](./instructions?format=json) or [YAML](./instructions?format=yaml) formats. -->
 
-<!-- 2.0 Changelog: https://webassembly.github.io/spec/core/bikeshed/#release-20 -->
+<!-- Spec 1.0: https://www.w3.org/TR/2019/REC-wasm-core-1-20191205/ -->
+<!-- Spec 2.0: https://www.w3.org/TR/wasm-core-2/ -->
+<!-- Spec Change History: https://www.w3.org/TR/wasm-core-2/appendix/changes.html -->
 
 ## Numeric
 
