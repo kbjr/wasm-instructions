@@ -9,12 +9,12 @@ There are 6 opcodes, to indicate the size of the operand and shape of the result
 
 | Opcode    | Instruction   | Stack Arity |
 |-----------|---------------|-------------|
-| `0xFD 15` | `i8x16.splat` | $[ i32 ] \to [ v128 ]$ |
-| `0xFD 16` | `i16x8.splat` | $[ i32 ] \to [ v128 ]$ |
-| `0xFD 17` | `i32x4.splat` | $[ i32 ] \to [ v128 ]$ |
-| `0xFD 18` | `i64x2.splat` | $[ i64 ] \to [ v128 ]$ |
-| `0xFD 19` | `f32x4.splat` | $[ f32 ] \to [ v128 ]$ |
-| `0xFD 20` | `f64x2.splat` | $[ f64 ] \to [ v128 ]$ |
+| `0xFD 15` | `i8x16.splat` | $[ \text{i32} ] \to [ \text{v128} ]$ |
+| `0xFD 16` | `i16x8.splat` | $[ \text{i32} ] \to [ \text{v128} ]$ |
+| `0xFD 17` | `i32x4.splat` | $[ \text{i32} ] \to [ \text{v128} ]$ |
+| `0xFD 18` | `i64x2.splat` | $[ \text{i64} ] \to [ \text{v128} ]$ |
+| `0xFD 19` | `f32x4.splat` | $[ \text{f32} ] \to [ \text{v128} ]$ |
+| `0xFD 20` | `f64x2.splat` | $[ \text{f64} ] \to [ \text{v128} ]$ |
 
 
 
