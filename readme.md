@@ -12,7 +12,7 @@
 These instructions pertain to the 4 "main" numeric data types: `i32`, `i64`, `f32`, and `f64`
 
 - [`const`](./numeric/const.md) (declare constant)
-- #### Comparisons
+- ### Comparisons
   - [`eqz`](./numeric/eqz.md) (equals zero)
   - [`eq`](./numeric/eq.md) (equals)
   - [`ne`](./numeric/ne.md) (not equals)
@@ -20,13 +20,13 @@ These instructions pertain to the 4 "main" numeric data types: `i32`, `i64`, `f3
   - [`gt`](./numeric/gt.md) (greater than)
   - [`le`](./numeric/le.md) (less than or equals)
   - [`ge`](./numeric/ge.md) (greater than or equals)
-- Arithmetic
+- ### Arithmetic
   - [`add`](./numeric/add.md) (addition)
   - [`sub`](./numeric/sub.md) (subtraction)
   - [`mul`](./numeric/mul.md) (multiplication)
   - [`div`](./numeric/div.md) (division)
   - [`rem`](./numeric/rem.md) (remainder)
-- Bitwise Operations
+- ### Bitwise Operations
   - [`clz`](./numeric/clz.md) (count leading zeros)
   - [`ctz`](./numeric/ctz.md) (count trailing zeros)
   - [`popcnt`](./numeric/popcnt.md) (population count)
@@ -37,7 +37,7 @@ These instructions pertain to the 4 "main" numeric data types: `i32`, `i64`, `f3
   - [`shr`](./numeric/shr.md) (shift right)
   - [`rotl`](./numeric/rotl.md) (rotate left)
   - [`rotr`](./numeric/rotr.md) (rotate right)
-- Floating Point Operations
+- ### Floating Point Operations
   - [`abs`](./numeric/abs.md) (absolute value)
   - [`neg`](./numeric/neg.md) (negative)
   - [`ceil`](./numeric/ceil.md) (ceiling / round up)
@@ -48,7 +48,7 @@ These instructions pertain to the 4 "main" numeric data types: `i32`, `i64`, `f3
   - [`min`](./numeric/min.md) (select minimum)
   - [`max`](./numeric/max.md) (select maximum)
   - [`copysign`](./numeric/copysign.md)
-- Type Convertion
+- ### Type Convertion
   - [`wrap`](./numeric/wrap.md)
   - [`trunc`](./numeric/i.trunc.md)
   - [`trunc_sat`](./numeric/trunc_sat.md)
@@ -67,31 +67,31 @@ These instructions pertain to `v128` values, and their various formats.
 
 - [`const`](./simd/const.md) (declare constant vector)
 - [`splat`](./simd/splat.md) (create vector with identical lanes)
-- Memory
+- ### Memory
   - [`load`](./simd/load.md)
   - [`store`](./simd/store.md)
-- Lane Operations
+- ### Lane Operations
   - [`shuffle`](./simd/shuffle.md) (shuffle together lanes from two vectors using immediate indices)
   - [`swizzle`](./simd/swizzle.md) (swizzle lanes using stack indices)
   - [`extract_lane`](./simd/extract_lane.md) (get lane value)
   - [`replace_lane`](./simd/replace_lane.md) (set lane value)
-- Comparisons
+- ### Comparisons
   - [`eq`](./simd/eq.md) (equals)
   - [`ne`](./simd/ne.md) (not equals)
   - [`lt`](./simd/lt.md) (less than)
   - [`gt`](./simd/gt.md) (greater than)
   - [`le`](./simd/le.md) (less than or equals)
   - [`ge`](./simd/ge.md) (greater than or equals)
-- Integer Arithmetic
+- ### Integer Arithmetic
   - [`add`](./simd/i.add.md) (lane-wise addition)
   - [`sub`](./simd/i.sub.md) (lane-wise subtraction)
   - [`mul`](./simd/i.mul.md) (lane-wise multiplication)
   - [`dot`](./simd/dot.md) (lane-wise dot product)
   - [`neg`](./simd/i.neg.md) (lane-wise negation)
-- Extended Integer Arithmetic
+- ### Extended Integer Arithmetic
   - [`extmul`](./simd/extmul.md) (extended multiplication)
   - [`extadd`](./simd/extadd.md) (extended pairwise addition)
-- Saturating Integer Arithmetic
+- ### Saturating Integer Arithmetic
   - [`add_sat`](./simd/add_sat.md) (saturating addition)
   - [`sub_sat`](./simd/sub_sat.md) (saturating subtraction)
   - [`q15mulr_sat`](./simd/q15mulr_sat.md) (saturating Q-format rounding multiplication)
@@ -99,7 +99,7 @@ These instructions pertain to `v128` values, and their various formats.
   - [`max`](./simd/i.max.md) (select lane-wise maximum)
   - [`avgr`](./simd/avgr.md) (lane-wise rounding average)
   - [`abs`](./simd/i.abs.md) (lane-wise absolute value)
-- Bitwise Operations
+- ### Bitwise Operations
   - [`not`](./simd/not.md) (bitwise not)
   - [`and`](./simd/and.md) (bitwise and)
   - [`andnot`](./simd/andnot.md) (bitwise and-not)
@@ -110,17 +110,17 @@ These instructions pertain to `v128` values, and their various formats.
   - [`bitselect`](./simd/bitselect.md) (bitwise select)
   - [`bitmask`](./simd/bitmask.md) (bitmask extraction)
   - [`popcnt`](./simd/popcnt.md) (lane-wise population count)
-- Boolean Horizontal Reductions
+- ### Boolean Horizontal Reductions
   - [`any_true`](./simd/any_true.md) (any bit not zero)
   - [`all_true`](./simd/all_true.md) (all lanes not zero)
-- Floating-point Operations
+- ### Floating-point Operations
   - [`neg`](./simd/f.neg.md) (lane-wise negation)
   - [`abs`](./simd/f.abs.md) (lane-wise absolute value)
   - [`min`](./simd/f.min.md) (NaN-propagating lane-wise select minimum)
   - [`max`](./simd/f.max.md) (NaN-propagating lane-wise select maximum)
   - [`pmin`](./simd/pmin.md) (lane-wise select psuedo-minimum)
   - [`pmax`](./simd/pmax.md) (lane-wise select psuedo-maximum)
-- Floating-point Arithmetic
+- ### Floating-point Arithmetic
   - [`add`](./simd/f.add.md) (addition)
   - [`sub`](./simd/f.sub.md) (subtraction)
   - [`div`](./simd/f.div.md) (division)
@@ -130,7 +130,7 @@ These instructions pertain to `v128` values, and their various formats.
   - [`floor`](./simd/floor.md) (floor / round down)
   - [`trunc`](./simd/trunc.md) (truncate / round toward zero)
   - [`nearest`](./simd/nearest.md) (round to nearest)
-- Conversions
+- ### Conversions
   - [`convert`](./simd/convert.md) (convert `i32` to floating-point)
   - [`trunc_sat`](./simd/trunc_sat.md) (convert floating-point to `i32` with saturation)
   - [`demote`](./simd/demote.md) (convert `f64` to `f32`)
