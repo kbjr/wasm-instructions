@@ -1,7 +1,7 @@
 
 # sub (subtraction)
 
-Takes two operands (both of the same numeric type), subtracts the second operand from the first, and places the result on the stack [^§2.4.1] [^§4.3.2-isub] [^§4.3.2-fsub].
+Takes two operands (both of the same numeric type), subtracts the second operand from the first, and places the result on the stack [^§2.4.1] [^§4.3.2-isub] [^§4.3.3-fsub].
 
 
 
