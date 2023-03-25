@@ -3,7 +3,9 @@
 
 Takes 2 operands from the stack of the same numeric type and compares them.
 
-Places an `i32` on the stack representing the result of the comparison: either 1 if the first operand is greater than the second, or 0 otherwise.
+Places an `i32` on the stack representing the result of the comparison: either 1 if the first operand is greater than the second, or 0 otherwise [^§4.3.2-igt-u] [^§4.3.2-igt-s] [^§4.3.3-fgt].
+
+For integer types, there are two opcodes per type, to indicate whether to treat the operands as signed or unsigned for the comparison [^§2.4.1].
 
 $$
 \mathsf{gt}(a: \mathsf{numtype}_1, b: \mathsf{numtype}_1) \to \begin{cases}
