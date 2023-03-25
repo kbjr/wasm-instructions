@@ -8,7 +8,8 @@ Places an `i32` on the stack representing the result of the comparison: either 1
 For integer types, there are two opcodes per type, to indicate whether to treat the operands as signed or unsigned for the comparison [^§2.4.1].
 
 $$
-\mathsf{gt} \enspace (a: \mathsf{numtype}_1, b: \mathsf{numtype}_1) \to \begin{cases}
+T_\mathsf{numtype} \enspace
+.\mathsf{gt} \enspace (a: T, b: T) \to \begin{cases}
   1_\mathsf{i32} &\text{if } a > b \\
   0_\mathsf{i32} &\text{otherwise}
 \end{cases}
