@@ -45,6 +45,12 @@ definitions:
     properties:
       opcode:
         type: integer
+      format:
+        type: string
+        enum:
+        - u8
+        - leb128
+        default: u8
       name:
         type: string
       description:

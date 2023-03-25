@@ -1,7 +1,7 @@
 
 # WASM Instructions
 
-Download metadata for all instructions in either [JSON](./instructions?format=json) or [YAML](./instructions?format=yaml) formats.
+<!-- Download metadata for all instructions in either [JSON](./instructions?format=json) or [YAML](./instructions?format=yaml) formats. -->
 
 ## Numeric
 

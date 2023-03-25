@@ -392,17 +392,20 @@ instructions:
   # ===== v128 Memory Load / Store and Constants =====
 
   - name: v128.load
-    opcode: 0x00
+    opcode: 0
+    format: leb128
     description: 
     # todo...
 
   - name: v128.load8x8_s
-    opcode: 0x01
+    opcode: 1
+    format: leb128
     description: 
     # todo...
 
   - name: v128.load8x8_u
-    opcode: 0x02
+    opcode: 2
+    format: leb128
     description: 
     # todo...
 

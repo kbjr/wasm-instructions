@@ -40,5 +40,5 @@ i32.load
 
 ## References
 
-[^§2.4.7]: _WebAssembly Core Specification: Memory Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#memory-instructions%E2%91%A0>
-
+[^§2.4.7]: _WebAssembly Core Specification, Structure, Memory Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A0>
+[^§4.4.7.1]: _WebAssembly Core Specification, Execution, Memory Instructions, t.load memarg and t.loadN_sx memarg_ - <https://webassembly.github.io/spec/core/bikeshed/#-tmathsfhrefsyntax-instr-memorymathsfloadhrefsyntax-memargmathitmemarg-and--tmathsfhrefsyntax-instr-memorymathsfloadnmathsf_hrefsyntax-sxmathitsxhrefsyntax-memargmathitmemarg>
