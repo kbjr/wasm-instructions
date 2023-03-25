@@ -22,4 +22,4 @@ _todo_
 ### WebAssembly Core Specification
 
 [^§2.4.1]: _Structure, Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
-[^§4.3.2.11-iand]: _Execution, Numerics, Integer Operations, iand_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-iand>
+[^§4.3.2-iand]: _Execution, Numerics, Integer Operations, iand_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-iand>

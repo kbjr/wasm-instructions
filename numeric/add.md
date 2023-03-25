@@ -1,7 +1,7 @@
 
 # add (addition)
 
-Takes two operands (both of the same numeric type), adds them, and places the result on the stack [^§2.4.1] [^§4.3.2.3-iadd] [^§4.3.3.3-fadd].
+Takes two operands (both of the same numeric type), adds them, and places the result on the stack [^§2.4.1] [^§4.3.2-iadd] [^§4.3.3-fadd].
 
 
 
@@ -35,5 +35,5 @@ i32.add
 ### WebAssembly Core Specification
 
 [^§2.4.1]: _Structure, Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
-[^§4.3.2.3-iadd]: _Execution, Numerics, Integer Operations, iadd_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-iadd>
-[^§4.3.3.3-fadd]: _Execution, Numerics, Floating-Point Operations, fadd_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-fadd>
+[^§4.3.2-iadd]: _Execution, Numerics, Integer Operations, iadd_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-iadd>
+[^§4.3.3-fadd]: _Execution, Numerics, Floating-Point Operations, fadd_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-fadd>

@@ -34,8 +34,10 @@ i32.div_u
 
 ## References
 
-[^§2.4.1]: _WebAssembly Core Specification, Structure, Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
-[^§4.3.2.6]: _WebAssembly Core Specification, Execution, Numerics, Integer Operations, idiv_un_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-idiv-umathrmidiv_u_n-i_1-i_2>
-[^§4.3.2.7]: _WebAssembly Core Specification, Execution, Numerics, Integer Operations, idiv_sn_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-idiv-smathrmidiv_s_n-i_1-i_2>
-[^§4.3.3.6]: _WebAssembly Core Specification, Execution, Numerics, Floating-Point Operations, fdivn_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-fdivmathrmfdiv_n-z_1-z_2>
+### WebAssembly Core Specification
+
+[^§2.4.1]: _Structure, Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
+[^§4.3.2]: _Execution, Numerics, Integer Operations, idiv_u_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-idiv-u>
+[^§4.3.2]: _Execution, Numerics, Integer Operations, idiv_s_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-idiv-s>
+[^§4.3.3]: _Execution, Numerics, Floating-Point Operations, fdiv_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-fdiv>
 
