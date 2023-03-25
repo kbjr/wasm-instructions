@@ -9,7 +9,7 @@ For integer types, there are two opcodes per type, to indicate whether to treat 
 
 $$
 T_\mathsf{numtype} \enspace
-.\mathsf{le} \enspace (a: T, b: T) \to \begin{cases}
+.\mathsf{le} \enspace \_s^? \enspace (a: T, b: T) \to \begin{cases}
   1_\mathsf{i32} &\text{if } a \le b \\
   0_\mathsf{i32} &\text{otherwise}
 \end{cases}

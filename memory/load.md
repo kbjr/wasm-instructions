@@ -5,7 +5,11 @@ _todo_
 
 $$
 T_\mathsf{numtype} \enspace
-.\mathsf{load} \enspace \mathsf{align}_{\mathsf{i32}}^? \enspace \mathsf{offset}_{\mathsf{i32}}^? \enspace (ptr: \mathsf{i32}) \to T
+.\mathsf{load} \enspace
+N\_s^? \enspace
+\mathsf{align}_{\mathsf{i32}}^? \enspace
+\mathsf{offset}_{\mathsf{i32}}^? \enspace
+(ptr: \mathsf{i32}) \to T
 $$
 
 
