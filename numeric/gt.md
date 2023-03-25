@@ -3,7 +3,11 @@
 
 _todo_
 
+$$
+\mathsf{gt}(a: \mathsf{numtype}_1, b: \mathsf{numtype}_1) \to \mathsf{numtype}_1
+$$
 
+## Instructions
 
 | Opcode | Instruction | Stack Arity |
 |--------|-------------|-----------|
