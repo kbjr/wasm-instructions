@@ -15,7 +15,7 @@ Takes two operands (both of the same numeric type), adds them, and places the re
 
 
 !!! {.info}
-## Example: Adding two constants
+### Example: Adding two constants
 
 ```wasm
 ;; Places 2 values on the stack
