@@ -7,20 +7,20 @@ _todo_
 
 | Opcode | Instruction    | Immediates    | Stack Arity |
 |--------|----------------|---------------|-------------|
-| `0x28` | `i32.load`     | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32} ] \to [ \text{i32} ]$ |
-| `0x29` | `i64.load`     | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32} ] \to [ \text{i64} ]$ |
-| `0x2A` | `f32.load`     | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32} ] \to [ \text{f32} ]$ |
-| `0x2B` | `f64.load`     | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32} ] \to [ \text{f64} ]$ |
-| `0x2C` | `i32.load8_s`  | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32} ] \to [ \text{i32} ]$ |
-| `0x2D` | `i32.load8_u`  | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32} ] \to [ \text{i32} ]$ |
-| `0x2E` | `i32.load16_s` | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32} ] \to [ \text{i32} ]$ |
-| `0x2F` | `i32.load16_u` | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32} ] \to [ \text{i32} ]$ |
-| `0x30` | `i64.load8_s`  | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32} ] \to [ \text{i64} ]$ |
-| `0x31` | `i64.load8_u`  | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32} ] \to [ \text{i64} ]$ |
-| `0x32` | `i64.load16_s` | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32} ] \to [ \text{i64} ]$ |
-| `0x33` | `i64.load16_u` | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32} ] \to [ \text{i64} ]$ |
-| `0x34` | `i64.load32_s` | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32} ] \to [ \text{i64} ]$ |
-| `0x35` | `i64.load32_u` | $\text{align}_\text{i32},\enspace\text{offset}_\text{i32}$ | $[ \text{i32} ] \to [ \text{i64} ]$ |
+| `0x28` | `i32.load`     | $\mathsf{align}_\mathsf{i32},\enspace\mathsf{offset}_\mathsf{i32}$ | $[ \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x29` | `i64.load`     | $\mathsf{align}_\mathsf{i32},\enspace\mathsf{offset}_\mathsf{i32}$ | $[ \mathsf{i32} ] \to [ \mathsf{i64} ]$ |
+| `0x2A` | `f32.load`     | $\mathsf{align}_\mathsf{i32},\enspace\mathsf{offset}_\mathsf{i32}$ | $[ \mathsf{i32} ] \to [ \mathsf{f32} ]$ |
+| `0x2B` | `f64.load`     | $\mathsf{align}_\mathsf{i32},\enspace\mathsf{offset}_\mathsf{i32}$ | $[ \mathsf{i32} ] \to [ \mathsf{f64} ]$ |
+| `0x2C` | `i32.load8_s`  | $\mathsf{align}_\mathsf{i32},\enspace\mathsf{offset}_\mathsf{i32}$ | $[ \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x2D` | `i32.load8_u`  | $\mathsf{align}_\mathsf{i32},\enspace\mathsf{offset}_\mathsf{i32}$ | $[ \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x2E` | `i32.load16_s` | $\mathsf{align}_\mathsf{i32},\enspace\mathsf{offset}_\mathsf{i32}$ | $[ \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x2F` | `i32.load16_u` | $\mathsf{align}_\mathsf{i32},\enspace\mathsf{offset}_\mathsf{i32}$ | $[ \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x30` | `i64.load8_s`  | $\mathsf{align}_\mathsf{i32},\enspace\mathsf{offset}_\mathsf{i32}$ | $[ \mathsf{i32} ] \to [ \mathsf{i64} ]$ |
+| `0x31` | `i64.load8_u`  | $\mathsf{align}_\mathsf{i32},\enspace\mathsf{offset}_\mathsf{i32}$ | $[ \mathsf{i32} ] \to [ \mathsf{i64} ]$ |
+| `0x32` | `i64.load16_s` | $\mathsf{align}_\mathsf{i32},\enspace\mathsf{offset}_\mathsf{i32}$ | $[ \mathsf{i32} ] \to [ \mathsf{i64} ]$ |
+| `0x33` | `i64.load16_u` | $\mathsf{align}_\mathsf{i32},\enspace\mathsf{offset}_\mathsf{i32}$ | $[ \mathsf{i32} ] \to [ \mathsf{i64} ]$ |
+| `0x34` | `i64.load32_s` | $\mathsf{align}_\mathsf{i32},\enspace\mathsf{offset}_\mathsf{i32}$ | $[ \mathsf{i32} ] \to [ \mathsf{i64} ]$ |
+| `0x35` | `i64.load32_u` | $\mathsf{align}_\mathsf{i32},\enspace\mathsf{offset}_\mathsf{i32}$ | $[ \mathsf{i32} ] \to [ \mathsf{i64} ]$ |
 
 
 
