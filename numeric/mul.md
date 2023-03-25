@@ -32,7 +32,8 @@ i32.mul
 
 ## References
 
-[^§2.4.1]: _WebAssembly Core Specification, Structure, Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
-[^§4.3.2.5]: _WebAssembly Core Specification, Execution, Numerics, Integer Operations, imuln_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-imulmathrmimul_n-i_1-i_2>
-[^§4.3.3.5]: _WebAssembly Core Specification, Execution, Numerics, Floating-Point Operations, fmuln_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-fmulmathrmfmul_n-z_1-z_2>
+### WebAssembly Core Specification
 
+[^§2.4.1]: _Structure, Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
+[^§4.3.2-imul]: _Execution, Numerics, Integer Operations, imul_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-imul>
+[^§4.3.3-fmul]: _Execution, Numerics, Floating-Point Operations, fmul_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-fmul>

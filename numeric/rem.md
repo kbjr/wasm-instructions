@@ -32,7 +32,9 @@ i32.rem_u
 
 ## References
 
-[^§2.4.1]: _WebAssembly Core Specification, Structure, Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
-[^§4.3.2.8]: _WebAssembly Core Specification, Execution, Numerics, Integer Operations, irem_un_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-irem-umathrmirem_u_n-i_1-i_2>
-[^§4.3.2.9]: _WebAssembly Core Specification, Execution, Numerics, Integer Operations, irem_sn_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-irem-smathrmirem_s_n-i_1-i_2>
+### WebAssembly Core Specification
+
+[^§2.4.1]: _Structure, Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
+[^§4.3.2-irem-u]: _Execution, Numerics, Integer Operations, irem_u_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-irem-u>
+[^§4.3.2-irem-s]: _Execution, Numerics, Integer Operations, irem_s_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-irem-s>
 

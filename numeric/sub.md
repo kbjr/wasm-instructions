@@ -1,7 +1,7 @@
 
 # sub (subtraction)
 
-Takes two operands (both of the same numeric type), subtracts the second operand from the first, and places the result on the stack [^§2.4.1] [^§4.3.2.3-isub] [^§4.3.2.3-fsub].
+Takes two operands (both of the same numeric type), subtracts the second operand from the first, and places the result on the stack [^§2.4.1] [^§4.3.2-isub] [^§4.3.2-fsub].
 
 
 
@@ -32,6 +32,8 @@ i32.sub
 
 ## References
 
-[^§2.4.1]: _WebAssembly Core Specification, Structure, Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
-[^§4.3.2.3-isub]: _Execution, Numerics, Integer Operations, isub_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-isub>
-[^§4.3.3.3-fsub]: _Execution, Numerics, Floating-Point Operations, fsub_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-fsub>
+### WebAssembly Core Specification
+
+[^§2.4.1]: _Structure, Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
+[^§4.3.2-isub]: _Execution, Numerics, Integer Operations, isub_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-isub>
+[^§4.3.3-fsub]: _Execution, Numerics, Floating-Point Operations, fsub_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-fsub>

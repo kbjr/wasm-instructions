@@ -37,7 +37,7 @@ i32.div_u
 ### WebAssembly Core Specification
 
 [^§2.4.1]: _Structure, Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
-[^§4.3.2]: _Execution, Numerics, Integer Operations, idiv_u_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-idiv-u>
-[^§4.3.2]: _Execution, Numerics, Integer Operations, idiv_s_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-idiv-s>
-[^§4.3.3]: _Execution, Numerics, Floating-Point Operations, fdiv_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-fdiv>
+[^§4.3.2-idiv-u]: _Execution, Numerics, Integer Operations, idiv_u_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-idiv-u>
+[^§4.3.2-idiv-s]: _Execution, Numerics, Integer Operations, idiv_s_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-idiv-s>
+[^§4.3.3-fdiv]: _Execution, Numerics, Floating-Point Operations, fdiv_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-fdiv>
 
