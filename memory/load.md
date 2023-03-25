@@ -54,4 +54,4 @@ i32.load
 ### WebAssembly Core Specification
 
 [^§2.4.7]: _Structure, Memory Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#memory-instructions>
-[^§4.4.7.1-load]: _Execution, Memory Instructions, load_ - <https://www.w3.org/TR/wasm-core-2/exec/instructions.html#exec-load>
+[^§4.4.7-load]: _Execution, Memory Instructions, load_ - <https://www.w3.org/TR/wasm-core-2/exec/instructions.html#exec-load>

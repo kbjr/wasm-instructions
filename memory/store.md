@@ -3,7 +3,18 @@
 
 _todo_
 
+$$
+T_\mathsf{numtype} \enspace
+.\mathsf{store} \enspace
+N^? \enspace
+\mathsf{align}_{\mathsf{i32}}^? \enspace
+\mathsf{offset}_{\mathsf{i32}}^? \enspace
+(ptr: \mathsf{i32}, x: T) \to \varnothing
+$$
 
+
+
+## Instructions
 
 | Opcode | Instruction    | Immediates    | Stack Arity |
 |--------|----------------|---------------|-------------|
@@ -41,4 +52,4 @@ i32.store
 ### WebAssembly Core Specification
 
 [^§2.4.7]: _Structure, Memory Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#memory-instructions>
-[^§4.4.7.1-store]: _Execution, Memory Instructions, store_ - <https://www.w3.org/TR/wasm-core-2/exec/instructions.html#exec-store>
+[^§4.4.7-store]: _Execution, Memory Instructions, store_ - <https://www.w3.org/TR/wasm-core-2/exec/instructions.html#exec-store>
