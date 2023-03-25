@@ -19,5 +19,7 @@ _todo_
 
 ## References
 
-[^§2.4.1]: _WebAssembly Core Specification: Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
-[^§4.3.2.11]: _WebAssembly Core Specification, Execution, Numerics, Integer Operations, iandn_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-iandmathrmiand_n-i_1-i_2>
+### WebAssembly Core Specification
+
+[^§2.4.1]: _Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
+[^§4.3.2.11-iand]: _Execution, Numerics, Integer Operations, iand_ - <https://www.w3.org/TR/wasm-core-2/exec/numerics.html#op-iand>

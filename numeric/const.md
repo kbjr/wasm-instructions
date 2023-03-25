@@ -1,7 +1,7 @@
 
 # const (declare constant)
 
-Declares a numeric constant value (of type `i32`, `i64`, `f32`, or `f64`), placing it on the stack [^§4.4.1.1]
+Declares a numeric constant value (of type `i32`, `i64`, `f32`, or `f64`), placing it on the stack [^§4.4.1-const]
 
 There are four different opcodes, to indicate the type of the value [^§2.4.1]
 
@@ -70,6 +70,8 @@ f64.const nan:0x123
 
 ## References
 
-[^§2.4.1]: _WebAssembly Core Specification, Structure, Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
-[^§4.4.1.1]: _WebAssembly Core Specification, Execution, Numeric Instructions, t.const c_ - <https://webassembly.github.io/spec/core/bikeshed/#-tmathsfhrefsyntax-instr-numericmathsfconstc%E2%91%A0>
+### WebAssembly Core Specification
+
+[^§2.4.1]: _Structure, Numeric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#numeric-instructions>
+[^§4.4.1-const]: _Execution, Numeric Instructions, const_ - <https://www.w3.org/TR/wasm-core-2/exec/instructions.html#exec-const>
 
