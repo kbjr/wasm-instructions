@@ -1,5 +1,5 @@
 
-# const (declare vector constant)
+# $\text{v128.const}$ (declare vector constant)
 
 Declares a vector constant value (of type `v128`), placing it on the stack [^§4.4.1.1]
 
