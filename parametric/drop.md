@@ -1,12 +1,12 @@
 
 # `drop`
 
-Drop one value from the stack [^§2.4.4] [^§4.4.4.1].
+Drop one value from the stack [^§2.4.4] [^§4.4.4-drop].
 
 
 
-| Opcode | Instruction | Stack Arity |
-|--------|-------------|-------------|
+| Opcode | Instruction | Stack Arity     |
+|--------|-------------|-----------------|
 | `0x1A` | `drop`      | $[ T ] \to [ ]$ |
 
 
@@ -27,5 +27,7 @@ drop
 
 ## References
 
-[^§2.4.4]: _WebAssembly Core Specification, Structure, Parametric Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#parametric-instructions%E2%91%A0>
-[^§4.4.4.1]: _WebAssembly Core Specification, Execution, Parametric Instructions, drop_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-parametricmathsfdrop%E2%91%A0>
+### WebAssembly Core Specification
+
+[^§2.4.4]: _Structure, Parametric Instructions_ - <https://www.w3.org/TR/wasm-core-2/syntax/instructions.html#parametric-instructions>
+[^§4.4.4-drop]: _Execution, Parametric Instructions, drop_ - <https://www.w3.org/TR/wasm-core-2/exec/instructions.html#exec-drop>
