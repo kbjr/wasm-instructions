@@ -19,7 +19,7 @@ _todo_
 
 ## References
 
-**WebAssembly Core Specification**
+#### WebAssembly Core Specification
 
 [^§2.4.2]: _Structure, Vector Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A0>
 [^§4.3.2.44]: _Execution, Integer Operations, isubsat_uN_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-isubsat-umathrmisubsat_u_n-i_1-i_2>
