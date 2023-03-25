@@ -1,7 +1,7 @@
 
 # `select`
 
-Selects one of the first two operands based on the value of the third operand [^§2.4.4].
+Selects one of the first two operands based on the value of the third operand [^§2.4.4] [^§4.4.4.2].
 
 The `valtype` immediate is optional, so long as the result type (and type of the first two operands) is a numeric type [^§2.4.4].
 
@@ -51,5 +51,6 @@ select funcref
 
 ## References
 
-[^§2.4.4]: _WebAssembly Core Specification: Parametric Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#parametric-instructions%E2%91%A0>
+[^§2.4.4]: _WebAssembly Core Specification, Structure, Parametric Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#parametric-instructions%E2%91%A0>
+[^§4.4.4.2]: _WebAssembly Core Specification, Execution, Parametric Instructions, select(t*)_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-parametricmathsfselect-tast%E2%91%A0>
 
