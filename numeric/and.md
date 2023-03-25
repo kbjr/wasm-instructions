@@ -7,8 +7,8 @@ _todo_
 
 | Opcode | Instruction | Signature |
 |--------|-------------|-----------|
-| `0x71` | `i32.and`   | $[ \text{i32},\enspace \text{i32} ] \to [ \text{i32} ]$ |
-| `0x7C` | `i64.and`   | $[ \text{i64},\enspace \text{i64} ] \to [ \text{i64} ]$ |
+| `0x71` | `i32.and`   | $[ \mathsf{i32},\enspace \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x7C` | `i64.and`   | $[ \mathsf{i64},\enspace \mathsf{i64} ] \to [ \mathsf{i64} ]$ |
 
 
 

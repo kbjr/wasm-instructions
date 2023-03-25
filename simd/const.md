@@ -7,7 +7,7 @@ Declares a vector constant value (of type `v128`), placing it on the stack [^§4
 
 | Opcode    | Instruction  | Immediates     | Stack Arity |
 |-----------|--------------|----------------|-------------|
-| `0xFD 12` | `v128.const` | $\text{v128}_\text{const}$ | $[ ] \to [ \text{v128} ]$ |
+| `0xFD 12` | `v128.const` | $\mathsf{v128}_\mathsf{const}$ | $[ ] \to [ \mathsf{v128} ]$ |
 
 !!! {.info}
 For numeric values, see [`t.const`](../numeric/const.md)

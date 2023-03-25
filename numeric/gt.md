@@ -7,12 +7,12 @@ _todo_
 
 | Opcode | Instruction | Signature |
 |--------|-------------|-----------|
-| `0x4A` | `i32.gt_s`  | $[ \text{i32}, \text{i32} ] \to [ \text{i32} ]$ |
-| `0x4B` | `i32.gt_u`  | $[ \text{i32}, \text{i32} ] \to [ \text{i32} ]$ |
-| `0x58` | `i64.gt_s`  | $[ \text{i64}, \text{i64} ] \to [ \text{i32} ]$ |
-| `0x59` | `i64.gt_u`  | $[ \text{i64}, \text{i64} ] \to [ \text{i32} ]$ |
-| `0x5E` | `f32.gt`    | $[ \text{f32}, \text{f32} ] \to [ \text{i32} ]$ |
-| `0x64` | `f64.gt`    | $[ \text{f64}, \text{f64} ] \to [ \text{i32} ]$ |
+| `0x4A` | `i32.gt_s`  | $[ \mathsf{i32}, \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x4B` | `i32.gt_u`  | $[ \mathsf{i32}, \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x58` | `i64.gt_s`  | $[ \mathsf{i64}, \mathsf{i64} ] \to [ \mathsf{i32} ]$ |
+| `0x59` | `i64.gt_u`  | $[ \mathsf{i64}, \mathsf{i64} ] \to [ \mathsf{i32} ]$ |
+| `0x5E` | `f32.gt`    | $[ \mathsf{f32}, \mathsf{f32} ] \to [ \mathsf{i32} ]$ |
+| `0x64` | `f64.gt`    | $[ \mathsf{f64}, \mathsf{f64} ] \to [ \mathsf{i32} ]$ |
 
 
 

@@ -7,7 +7,7 @@ _todo_
 
 | Opcode | Instruction   | Stack Arity |
 |--------|---------------|-------------|
-| `0x3F` | `memory.size` | $[ ] \to [ \text{i32} ]$ |
+| `0x3F` | `memory.size` | $[ ] \to [ \mathsf{i32} ]$ |
 
 
 

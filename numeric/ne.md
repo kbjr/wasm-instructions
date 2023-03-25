@@ -7,10 +7,10 @@ _todo_
 
 | Opcode | Instruction | Signature |
 |--------|-------------|-----------|
-| `0x47` | `i32.ne`    | $[ \text{i32}, \text{i32} ] \to [ \text{i32} ]$ |
-| `0x55` | `i64.ne`    | $[ \text{i64}, \text{i64} ] \to [ \text{i32} ]$ |
-| `0x5C` | `f32.ne`    | $[ \text{f32}, \text{f32} ] \to [ \text{i32} ]$ |
-| `0x62` | `f64.ne`    | $[ \text{f64}, \text{f64} ] \to [ \text{i32} ]$ |
+| `0x47` | `i32.ne`    | $[ \mathsf{i32}, \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x55` | `i64.ne`    | $[ \mathsf{i64}, \mathsf{i64} ] \to [ \mathsf{i32} ]$ |
+| `0x5C` | `f32.ne`    | $[ \mathsf{f32}, \mathsf{f32} ] \to [ \mathsf{i32} ]$ |
+| `0x62` | `f64.ne`    | $[ \mathsf{f64}, \mathsf{f64} ] \to [ \mathsf{i32} ]$ |
 
 
 

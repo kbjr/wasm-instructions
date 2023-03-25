@@ -7,8 +7,8 @@ _todo_
 
 | Opcode | Instruction | Signature |
 |--------|-------------|-----------|
-| `0x67` | `i32.clz`   | $[ \text{i32} ] \to [ \text{i32} ]$ |
-| `0x79` | `i64.clz`   | $[ \text{i64} ] \to [ \text{i64} ]$ |
+| `0x67` | `i32.clz`   | $[ \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x79` | `i64.clz`   | $[ \mathsf{i64} ] \to [ \mathsf{i64} ]$ |
 
 
 

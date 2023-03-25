@@ -7,10 +7,10 @@ _todo_
 
 | Opcode | Instruction | Stack Arity |
 |--------|-------------|-------------|
-| `0x6F` | `i32.rem_s` | $[ \text{i32}, \text{i32} ] \to [ \text{i32} ]$ |
-| `0x70` | `i32.rem_u` | $[ \text{i32}, \text{i32} ] \to [ \text{i32} ]$ |
-| `0x81` | `i64.rem_s` | $[ \text{i64}, \text{i64} ] \to [ \text{i64} ]$ |
-| `0x82` | `i64.rem_u` | $[ \text{i64}, \text{i64} ] \to [ \text{i64} ]$ |
+| `0x6F` | `i32.rem_s` | $[ \mathsf{i32}, \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x70` | `i32.rem_u` | $[ \mathsf{i32}, \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x81` | `i64.rem_s` | $[ \mathsf{i64}, \mathsf{i64} ] \to [ \mathsf{i64} ]$ |
+| `0x82` | `i64.rem_u` | $[ \mathsf{i64}, \mathsf{i64} ] \to [ \mathsf{i64} ]$ |
 
 
 

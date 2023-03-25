@@ -9,10 +9,10 @@ There are four different opcodes, to indicate the type of the value [^§2.4.1]
 
 | Opcode | Instruction | Immediates    | Stack Arity |
 |--------|-------------|---------------|-------------|
-| `0x41` | `i32.const` | $\text{i32}_\text{const}$ | $[ ] \to [ \text{i32} ]$ |
-| `0x42` | `i64.const` | $\text{i64}_\text{const}$ | $[ ] \to [ \text{i64} ]$ |
-| `0x43` | `f32.const` | $\text{f32}_\text{const}$ | $[ ] \to [ \text{f32} ]$ |
-| `0x44` | `f64.const` | $\text{f64}_\text{const}$ | $[ ] \to [ \text{f64} ]$ |
+| `0x41` | `i32.const` | $\mathsf{i32}_\mathsf{const}$ | $[ ] \to [ \mathsf{i32} ]$ |
+| `0x42` | `i64.const` | $\mathsf{i64}_\mathsf{const}$ | $[ ] \to [ \mathsf{i64} ]$ |
+| `0x43` | `f32.const` | $\mathsf{f32}_\mathsf{const}$ | $[ ] \to [ \mathsf{f32} ]$ |
+| `0x44` | `f64.const` | $\mathsf{f64}_\mathsf{const}$ | $[ ] \to [ \mathsf{f64} ]$ |
 
 !!! {.info}
 For SIMD / Vectors, see [`v128.const`](../simd/const.md)

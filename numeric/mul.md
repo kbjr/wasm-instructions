@@ -7,10 +7,10 @@ _todo_
 
 | Opcode | Instruction | Stack Arity |
 |--------|-------------|-------------|
-| `0x6C` | `i32.mul`   | $[ \text{i32}, \text{i32} ] \to [ \text{i32} ]$ |
-| `0x7E` | `i64.mul`   | $[ \text{i64}, \text{i64} ] \to [ \text{i64} ]$ |
-| `0x94` | `f32.mul`   | $[ \text{f32}, \text{f32} ] \to [ \text{f32} ]$ |
-| `0xA2` | `f64.mul`   | $[ \text{f64}, \text{f64} ] \to [ \text{f64} ]$ |
+| `0x6C` | `i32.mul`   | $[ \mathsf{i32}, \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x7E` | `i64.mul`   | $[ \mathsf{i64}, \mathsf{i64} ] \to [ \mathsf{i64} ]$ |
+| `0x94` | `f32.mul`   | $[ \mathsf{f32}, \mathsf{f32} ] \to [ \mathsf{f32} ]$ |
+| `0xA2` | `f64.mul`   | $[ \mathsf{f64}, \mathsf{f64} ] \to [ \mathsf{f64} ]$ |
 
 
 

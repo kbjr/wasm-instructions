@@ -7,10 +7,10 @@ _todo_
 
 | Opcode | Instruction | Stack Arity |
 |--------|-------------|-------------|
-| `0x6B` | `i32.sub`   | $[ \text{i32}, \text{i32} ] \to [ \text{i32} ]$ |
-| `0x7D` | `i64.sub`   | $[ \text{i64}, \text{i64} ] \to [ \text{i64} ]$ |
-| `0x93` | `f32.sub`   | $[ \text{f32}, \text{f32} ] \to [ \text{f32} ]$ |
-| `0xA1` | `f64.sub`   | $[ \text{f64}, \text{f64} ] \to [ \text{f64} ]$ |
+| `0x6B` | `i32.sub`   | $[ \mathsf{i32}, \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x7D` | `i64.sub`   | $[ \mathsf{i64}, \mathsf{i64} ] \to [ \mathsf{i64} ]$ |
+| `0x93` | `f32.sub`   | $[ \mathsf{f32}, \mathsf{f32} ] \to [ \mathsf{f32} ]$ |
+| `0xA1` | `f64.sub`   | $[ \mathsf{f64}, \mathsf{f64} ] \to [ \mathsf{f64} ]$ |
 
 
 

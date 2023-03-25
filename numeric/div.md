@@ -7,12 +7,12 @@ _todo_
 
 | Opcode | Instruction | Stack Arity |
 |--------|-------------|-------------|
-| `0x6D` | `i32.div_s` | $[ \text{i32}, \text{i32} ] \to [ \text{i32} ]$ |
-| `0x6E` | `i32.div_u` | $[ \text{i32}, \text{i32} ] \to [ \text{i32} ]$ |
-| `0x7F` | `i64.div_s` | $[ \text{i64}, \text{i64} ] \to [ \text{i64} ]$ |
-| `0x80` | `i64.div_u` | $[ \text{i64}, \text{i64} ] \to [ \text{i64} ]$ |
-| `0x95` | `f32.div`   | $[ \text{f32}, \text{f32} ] \to [ \text{f32} ]$ |
-| `0xA3` | `f64.div`   | $[ \text{f64}, \text{f64} ] \to [ \text{f64} ]$ |
+| `0x6D` | `i32.div_s` | $[ \mathsf{i32}, \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x6E` | `i32.div_u` | $[ \mathsf{i32}, \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x7F` | `i64.div_s` | $[ \mathsf{i64}, \mathsf{i64} ] \to [ \mathsf{i64} ]$ |
+| `0x80` | `i64.div_u` | $[ \mathsf{i64}, \mathsf{i64} ] \to [ \mathsf{i64} ]$ |
+| `0x95` | `f32.div`   | $[ \mathsf{f32}, \mathsf{f32} ] \to [ \mathsf{f32} ]$ |
+| `0xA3` | `f64.div`   | $[ \mathsf{f64}, \mathsf{f64} ] \to [ \mathsf{f64} ]$ |
 
 
 

@@ -7,8 +7,8 @@ _todo_
 
 | Opcode | Instruction | Signature |
 |--------|-------------|-----------|
-| `0x45` | `i32.eqz`   | $[ \text{i32} ] \to [ \text{i32} ]$ |
-| `0x50` | `i64.eqz`   | $[ \text{i64} ] \to [ \text{i32} ]$ |
+| `0x45` | `i32.eqz`   | $[ \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x50` | `i64.eqz`   | $[ \mathsf{i64} ] \to [ \mathsf{i32} ]$ |
 
 
 

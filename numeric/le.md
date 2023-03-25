@@ -7,12 +7,12 @@ _todo_
 
 | Opcode | Instruction | Signature |
 |--------|-------------|-----------|
-| `0x4C` | `i32.le_s`  | $[ \text{i32}, \text{i32} ] \to [ \text{i32} ]$ |
-| `0x4D` | `i32.le_u`  | $[ \text{i32}, \text{i32} ] \to [ \text{i32} ]$ |
-| `0x5A` | `i64.le_s`  | $[ \text{i64}, \text{i64} ] \to [ \text{i32} ]$ |
-| `0x5B` | `i64.le_u`  | $[ \text{i64}, \text{i64} ] \to [ \text{i32} ]$ |
-| `0x5F` | `f32.le`    | $[ \text{f32}, \text{f32} ] \to [ \text{i32} ]$ |
-| `0x65` | `f64.le`    | $[ \text{f64}, \text{f64} ] \to [ \text{i32} ]$ |
+| `0x4C` | `i32.le_s`  | $[ \mathsf{i32}, \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x4D` | `i32.le_u`  | $[ \mathsf{i32}, \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x5A` | `i64.le_s`  | $[ \mathsf{i64}, \mathsf{i64} ] \to [ \mathsf{i32} ]$ |
+| `0x5B` | `i64.le_u`  | $[ \mathsf{i64}, \mathsf{i64} ] \to [ \mathsf{i32} ]$ |
+| `0x5F` | `f32.le`    | $[ \mathsf{f32}, \mathsf{f32} ] \to [ \mathsf{i32} ]$ |
+| `0x65` | `f64.le`    | $[ \mathsf{f64}, \mathsf{f64} ] \to [ \mathsf{i32} ]$ |
 
 
 

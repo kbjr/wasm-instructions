@@ -7,7 +7,7 @@ _todo_
 
 | Opcode     | Instruction       | Stack Arity |
 |------------|-------------------|-------------|
-| `0xFD 110` | `i8x16.add`       | $[ \text{v128}, \text{v128} ] \to [ \text{v128} ]$ |
+| `0xFD 110` | `i8x16.add`       | $[ \mathsf{v128}, \mathsf{v128} ] \to [ \mathsf{v128} ]$ |
 
 
 ## WAT Examples
