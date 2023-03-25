@@ -14,8 +14,9 @@ Takes two operands (both of the same numeric type), adds them, and places the re
 
 
 
-!!! {.info}
-### Example: Adding two constants
+## WAT Examples
+
+### Adding two constants
 
 ```wasm
 ;; Places 2 values on the stack
@@ -26,7 +27,6 @@ i32.const 20
 ;; places the result (30) on the stack
 i32.add
 ```
-!!!
 
 
 
