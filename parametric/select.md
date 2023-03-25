@@ -12,7 +12,7 @@ Otherwise, the `valtype` immediate declares the result type [^§2.4.4].
 | Opcode | Instruction | Immediates     | Stack Arity |
 |--------|-------------|----------------|-------------|
 | `0x1B` | `select`    | _none_         | $[ numtype_1, numtype_1, i32 ] \to [ numtype_1 ]$ |
-| `0x1C` | `select`    | $valtype(T_1)$ | $[ T_1, T_1, i32 ] \to [ T_1 ]$ |
+| `0x1C` | `select`    | $\wasmvaltype{T_1}$ | $[ T_1, T_1, i32 ] \to [ T_1 ]$ |
 
 
 
