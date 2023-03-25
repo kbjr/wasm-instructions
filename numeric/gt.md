@@ -4,7 +4,7 @@
 _todo_
 
 $$
-\mathsf{gt}(a: \mathsf{numtype}_1, b: \mathsf{numtype}_1) \to \mathsf{numtype}_1
+\mathsf{gt}(a: \mathsf{numtype}_1, b: \mathsf{numtype}_1) \to 1_\mathsf{i32} or 0_\mathsf{i32}
 $$
 
 ## Instructions
