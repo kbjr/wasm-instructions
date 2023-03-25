@@ -5,7 +5,7 @@ _todo_
 
 
 
-| Opcode | Instruction | Signature |
+| Opcode | Instruction | Stack Arity |
 |--------|-------------|-----------|
 | `0x4A` | `i32.gt_s`  | $[ \mathsf{i32}, \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
 | `0x4B` | `i32.gt_u`  | $[ \mathsf{i32}, \mathsf{i32} ] \to [ \mathsf{i32} ]$ |

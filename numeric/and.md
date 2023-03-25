@@ -5,7 +5,7 @@ _todo_
 
 
 
-| Opcode | Instruction | Signature |
+| Opcode | Instruction | Stack Arity |
 |--------|-------------|-----------|
 | `0x71` | `i32.and`   | $[ \mathsf{i32},\enspace \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
 | `0x7C` | `i64.and`   | $[ \mathsf{i64},\enspace \mathsf{i64} ] \to [ \mathsf{i64} ]$ |

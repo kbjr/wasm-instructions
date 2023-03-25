@@ -5,7 +5,7 @@ _todo_
 
 
 
-| Opcode | Instruction  | Signature |
+| Opcode | Instruction  | Stack Arity |
 |--------|--------------|-----------|
 | `0x69` | `i32.popcnt` | $[ \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
 | `0x7B` | `i64.popcnt` | $[ \mathsf{i64} ] \to [ \mathsf{i64} ]$ |

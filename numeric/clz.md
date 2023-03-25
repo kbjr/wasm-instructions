@@ -5,7 +5,7 @@ _todo_
 
 
 
-| Opcode | Instruction | Signature |
+| Opcode | Instruction | Stack Arity |
 |--------|-------------|-----------|
 | `0x67` | `i32.clz`   | $[ \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
 | `0x79` | `i64.clz`   | $[ \mathsf{i64} ] \to [ \mathsf{i64} ]$ |

@@ -5,7 +5,7 @@ _todo_
 
 
 
-| Opcode  | Instruction | Signature |
+| Opcode  | Instruction | Stack Arity |
 |-------- |-------------|-----------|
 | `0x46`  | `i32.eq`    | $[ \mathsf{i32}, \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
 | `0x51`  | `i64.eq`    | $[ \mathsf{i64}, \mathsf{i64} ] \to [ \mathsf{i32} ]$ |
