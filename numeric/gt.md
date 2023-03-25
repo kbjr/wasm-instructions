@@ -1,11 +1,18 @@
 
 # gt (greater than)
 
-_todo_
+Takes 2 operands from the stack of the same numeric type and compares them.
+
+Places an `i32` on the stack representing the result of the comparison: either 1 if the first operand is greater than the second, or 0 otherwise.
 
 $$
-\mathsf{gt}(a: \mathsf{numtype}_1, b: \mathsf{numtype}_1) \to 1_\mathsf{i32} or 0_\mathsf{i32}
+\mathsf{gt}(a: \mathsf{numtype}_1, b: \mathsf{numtype}_1) \to \begin{cases}
+  1_\mathsf{i32} &\text{if } a > b \\
+  0_\mathsf{i32} &\text{otherwise}
+\end{cases}
 $$
+
+
 
 ## Instructions
 
