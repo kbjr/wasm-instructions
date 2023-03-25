@@ -1,5 +1,5 @@
 
-# mul
+# mul (multiplication)
 
 _todo_
 
