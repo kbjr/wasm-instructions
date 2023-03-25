@@ -7,10 +7,6 @@ The `valtype` immediate is optional, so long as the result type (and type of the
 
 Otherwise, the `valtype` immediate declares the result type [^§2.4.4].
 
-
-
-## Signature
-
 $$
 \mathsf{select} \enspace \mathsf{valtype}(T_1)^? \enspace (a: T_1, b: T_1, c: \mathsf{i32}) \to \begin{cases}
   a &\text{if } c \not = 0 \\
