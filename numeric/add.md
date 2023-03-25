@@ -33,5 +33,6 @@ i32.add
 ## References
 
 [^§2.4.1]: _WebAssembly Core Specification, Structure, Numeric Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A0>
-<!-- [^§4.4.1.1]: _WebAssembly Core Specification, Execution, Numeric Instructions, t.const c_ - <https://webassembly.github.io/spec/core/bikeshed/#-tmathsfhrefsyntax-instr-numericmathsfconstc%E2%91%A0> -->
+[^§4.3.2.3]: _WebAssembly Core Specification, Execution, Numerics, Integer Operations, iaddn_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-iaddmathrmiadd_n-i_1-i_2>
+[^§4.3.3.3]: _WebAssembly Core Specification, Execution, Numerics, Floating-Point Operations, faddn_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-faddmathrmfadd_n-z_1-z_2>
 

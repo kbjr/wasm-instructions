@@ -37,4 +37,5 @@ i32.div_u
 [^§2.4.1]: _WebAssembly Core Specification, Structure, Numeric Instructions_ - <https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A0>
 [^§4.3.2.6]: _WebAssembly Core Specification, Execution, Numerics, Integer Operations, idiv_un_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-idiv-umathrmidiv_u_n-i_1-i_2>
 [^§4.3.2.7]: _WebAssembly Core Specification, Execution, Numerics, Integer Operations, idiv_sn_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-idiv-smathrmidiv_s_n-i_1-i_2>
+[^§4.3.3.6]: _WebAssembly Core Specification, Execution, Numerics, Floating-Point Operations, fdivn_ - <https://webassembly.github.io/spec/core/bikeshed/#-hrefop-fdivmathrmfdiv_n-z_1-z_2>
 
