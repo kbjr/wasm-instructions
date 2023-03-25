@@ -1,7 +1,7 @@
 
 # sub (subtraction)
 
-_todo_
+Takes two operands (both of the same numeric type), subtracts the second operand from the first, and places the result on the stack [^§2.4.1] [^§4.3.2.3-isub] [^§4.3.2.3-fsub].
 
 
 
