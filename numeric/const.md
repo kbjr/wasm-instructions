@@ -5,7 +5,15 @@ Declares a numeric constant value (of type `i32`, `i64`, `f32`, or `f64`), placi
 
 There are four different opcodes, to indicate the type of the value [^§2.4.1]
 
+$$
+T_\mathsf{numtype} \enspace
+.\mathsf{const} \enspace
+T_\mathsf{const} \enspace ( \enspace ) \to T
+$$
 
+
+
+## Instructions
 
 | Opcode | Instruction | Immediates    | Stack Arity |
 |--------|-------------|---------------|-------------|
