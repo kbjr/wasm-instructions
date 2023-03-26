@@ -5,7 +5,7 @@ _todo_
 
 $$
 T_\mathsf{numtype}
-\enspace .\mathsf{load}
+\enspace .\mathsf{store}
 \enspace N\_s^?
 % \enspace \mathsf{memarg}
 \enspace \mathsf{align}_\mathsf{i32}
