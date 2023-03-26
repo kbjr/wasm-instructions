@@ -10,7 +10,7 @@ Returns one result to the stack, an `i32` representing the previous total size o
 $$
 \mathsf{memory.grow} \enspace ( pages: \mathsf{i32} ) \to \begin{cases}
   -1_\mathsf{i32} &\text{if allocation failed} \\
-  \mathsf{i32} &\text{otherwise}
+  \mathsf{u31} &\text{otherwise}
 \end{cases}
 $$
 
