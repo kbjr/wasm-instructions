@@ -11,8 +11,8 @@ T_\mathsf{numtype}
 % \enspace N\_s^?
 N\_s^?
 % \enspace \mathsf{memarg}
-\enspace \mathsf{align}_\mathsf{i32}
 \enspace \mathsf{offset}_\mathsf{i32}
+\enspace \mathsf{align}_\mathsf{i32}
 \enspace (ptr: \mathsf{i32}) \to T
 $$
 
