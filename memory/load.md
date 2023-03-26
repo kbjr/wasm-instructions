@@ -1,7 +1,9 @@
 
 # `load` (load a value from memory and place it on the stack)
 
-_todo_
+Loads a value from memory and places it on the stack.
+
+For integer types, there are additional opcodes to allow loading values smaller than result data type (e.g. placing an `i32` on the stack, but only loading 8 bits from memory); These also come in two forms each, to indicate whether the value read from memory should be interpretted as signed or unsigned.
 
 $$
 T_\mathsf{numtype}
@@ -13,7 +15,7 @@ T_\mathsf{numtype}
 \enspace (ptr: \mathsf{i32}) \to T
 $$
 
-
+$\mathsf{offset}_\mathsf{i32}, \enspace \mathsf{align}_\mathsf{i32}$
 
 ## Instructions
 
