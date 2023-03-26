@@ -21,7 +21,7 @@ S_\mathsf{shape}
     &\text{if } S = \text{f64x2} \\
 \end{cases}
 \enspace
-( \enspace ) \to T
+( \enspace ) \to \mathsf{v128}
 $$
 
 
