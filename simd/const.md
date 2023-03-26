@@ -8,11 +8,11 @@ $$
 const_\mathsf{v128}
 \enspace
 ( \enspace ) \to \mathsf{v128}
+$$
 
-\\
-\mathstrut
-\\
+In WAT, the $const_\mathsf{v128}$ value can be declared in multiple different shapes, each taking the form of a shape identifier keyword followed by a constant immediate to populate each lane of the vector.
 
+$$
 const_\mathsf{v128} ::=
 \begin{cases}
 \mathsf{i8x16} \enspace \mathsf{i8}_1, \mathsf{i8}_2, ..., \mathsf{i8}_{16} &\text{or}\\ 
