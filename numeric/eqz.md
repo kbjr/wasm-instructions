@@ -6,7 +6,7 @@ _todo_
 $$
 T.\mathsf{eqz} \enspace ( value: T ) \to \begin{cases}
   1_{\mathsf{i32}} &\text{if } value = 0\\
-  0_{\mathsf{i32}} &\text{otherwise}
+  0_{\mathsf{i32}} &\text{if } value \ne 0
 \end{cases}
 $$
 
