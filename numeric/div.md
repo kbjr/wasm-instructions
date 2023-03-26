@@ -3,7 +3,13 @@
 
 _todo_
 
+$$
+T.\mathsf{div}\_s^? \enspace ( a: T, b: T ) \to (a \div b)_T
+$$
 
+
+
+## Instructions
 
 | Opcode | Instruction | Stack Arity |
 |--------|-------------|-------------|

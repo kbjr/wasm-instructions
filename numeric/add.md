@@ -3,7 +3,13 @@
 
 Takes two operands (both of the same numeric type), adds them, and places the result on the stack [^§2.4.1] [^§4.3.2-iadd] [^§4.3.3-fadd].
 
+$$
+T.\mathsf{add} \enspace ( a: T, b: T ) \to (a + b)_T
+$$
 
+
+
+## Instructions
 
 | Opcode | Instruction | Stack Arity |
 |--------|-------------|-------------|
