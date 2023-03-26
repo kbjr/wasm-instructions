@@ -3,14 +3,23 @@
 
 _todo_
 
+$$
+T.\mathsf{eq} \enspace ( a: T, b: T ) \to \begin{cases}
+  1_{\mathsf{i32}} &\text{if } a = b\\
+  0_{\mathsf{i32}} &\text{if } a \ne b
+\end{cases}
+$$
 
 
-| Opcode  | Instruction | Stack Arity |
-|-------- |-------------|-----------|
-| `0x46`  | `i32.eq`    | $[ \mathsf{i32}, \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
-| `0x51`  | `i64.eq`    | $[ \mathsf{i64}, \mathsf{i64} ] \to [ \mathsf{i32} ]$ |
-| `0x5B`  | `f32.eq`    | $[ \mathsf{f32}, \mathsf{f32} ] \to [ \mathsf{i32} ]$ |
-| `0x61`  | `f64.eq`    | $[ \mathsf{f64}, \mathsf{f64} ] \to [ \mathsf{i32} ]$ |
+
+## Instructions
+
+| Opcode | Instruction | Stack Arity |
+|--------|-------------|-----------|
+| `0x46` | `i32.eq`    | $[ \mathsf{i32}, \mathsf{i32} ] \to [ \mathsf{i32} ]$ |
+| `0x51` | `i64.eq`    | $[ \mathsf{i64}, \mathsf{i64} ] \to [ \mathsf{i32} ]$ |
+| `0x5B` | `f32.eq`    | $[ \mathsf{f32}, \mathsf{f32} ] \to [ \mathsf{i32} ]$ |
+| `0x61` | `f64.eq`    | $[ \mathsf{f64}, \mathsf{f64} ] \to [ \mathsf{i32} ]$ |
 
 
 

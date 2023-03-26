@@ -5,8 +5,7 @@ Declares a vector constant value (of type `v128`), placing it on the stack [^§4
 
 $$
 \mathsf{v128.const} \enspace
-S_\mathsf{shape} \enspace
-const(\mathsf{v128})
+const_\mathsf{v128}
 \enspace
 ( \enspace ) \to \mathsf{v128}
 $$
@@ -17,7 +16,7 @@ $$
 
 | Opcode    | Instruction  | Immediates     | Stack Arity |
 |-----------|--------------|----------------|-------------|
-| `0xFD 12` | `v128.const` | $const(\mathsf{v128})$ | $[ ] \to [ \mathsf{v128} ]$ |
+| `0xFD 12` | `v128.const` | $\mathsf{v128}$ | $[ ] \to [ \mathsf{v128} ]$ |
 
 !!! {.info}
 For numeric values, see [`t.const`](../numeric/const.md)

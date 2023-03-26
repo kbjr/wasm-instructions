@@ -7,7 +7,7 @@ There are four different opcodes, to indicate the type of the value [^§2.4.1]
 
 $$
 T.\mathsf{const} \enspace
-const(T) \enspace ( \enspace ) \to T
+const_T \enspace ( \enspace ) \to T
 $$
 
 
@@ -16,10 +16,10 @@ $$
 
 | Opcode | Instruction | Immediates    | Stack Arity |
 |--------|-------------|---------------|-------------|
-| `0x41` | `i32.const` | $const(\mathsf{i32})$ | $[ ] \to [ \mathsf{i32} ]$ |
-| `0x42` | `i64.const` | $const(\mathsf{i64})$ | $[ ] \to [ \mathsf{i64} ]$ |
-| `0x43` | `f32.const` | $const(\mathsf{f32})$ | $[ ] \to [ \mathsf{f32} ]$ |
-| `0x44` | `f64.const` | $const(\mathsf{f64})$ | $[ ] \to [ \mathsf{f64} ]$ |
+| `0x41` | `i32.const` | $\mathsf{i32}$ | $[ ] \to [ \mathsf{i32} ]$ |
+| `0x42` | `i64.const` | $\mathsf{i64}$ | $[ ] \to [ \mathsf{i64} ]$ |
+| `0x43` | `f32.const` | $\mathsf{f32}$ | $[ ] \to [ \mathsf{f32} ]$ |
+| `0x44` | `f64.const` | $\mathsf{f64}$ | $[ ] \to [ \mathsf{f64} ]$ |
 
 !!! {.info}
 For SIMD / Vectors, see [`v128.const`](../simd/const.md)

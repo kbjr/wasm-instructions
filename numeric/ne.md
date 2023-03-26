@@ -3,7 +3,16 @@
 
 _todo_
 
+$$
+T.\mathsf{ne} \enspace ( a: T, b: T ) \to \begin{cases}
+  1_{\mathsf{i32}} &\text{if } a \ne b\\
+  0_{\mathsf{i32}} &\text{if } a = b
+\end{cases}
+$$
 
+
+
+## Instructions
 
 | Opcode | Instruction | Stack Arity |
 |--------|-------------|-----------|

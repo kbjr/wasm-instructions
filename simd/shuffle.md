@@ -5,11 +5,19 @@ Selects values from the two vector operands, combining them together to result i
 
 The lanes to select from are indicated using the immediates, with indices $[0-15]$ referring to the first operand, and $[16-31]$ referring to the second operand [^§4.4.3.7].
 
+$$
+\mathsf{i8x16.shuffle} \enspace
+\mathsf{i5}_1, \mathsf{i5}_2, ..., \mathsf{i5}_{16} \enspace
+( a: \mathsf{v128}, b: \mathsf{v128} ) \to \mathsf{v128}
+$$
 
+
+
+## Instructions
 
 | Opcode    | Instruction       | Immediates       | Stack Arity |
 |-----------|-------------------|------------------|-------------|
-| `0xFD 13` | `i8x16.shuffle`   | $\mathsf{i5}_\mathsf{const}[16]$ | $[ \mathsf{v128}, \mathsf{v128} ] \to [ \mathsf{v128} ]$ |
+| `0xFD 13` | `i8x16.shuffle`   | $\mathsf{i5}_1, \mathsf{i5}_2, ..., \mathsf{i5}_{16}$ | $[ \mathsf{v128}, \mathsf{v128} ] \to [ \mathsf{v128} ]$ |
 
 
 ## WAT Examples
