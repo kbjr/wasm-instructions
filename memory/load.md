@@ -44,7 +44,7 @@ $$
 i32.const 0
 
 ;; Load the value
-i32.load
+i32.load offset=0 align=0
 ```
 
 
