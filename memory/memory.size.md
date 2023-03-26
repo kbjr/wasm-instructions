@@ -3,7 +3,13 @@
 
 _todo_
 
+$$
+\mathsf{memory.size} \enspace ( \enspace ) \to \mathsf{i32}
+$$
 
+
+
+## Instructions
 
 | Opcode | Instruction   | Stack Arity |
 |--------|---------------|-------------|

@@ -7,7 +7,13 @@ Takes one operand from the stack, an `i32` representing the number of pages to r
 
 Returns one result to the stack, an `i32` representing the previous total size of memory in pages, or `-1` if the operation failed [^§2.4.7].
 
+$$
+\mathsf{memory.grow} \enspace ( pages: \mathsf{i32} ) \to \mathsf{i32}
+$$
 
+
+
+## Instructions
 
 | Opcode | Instruction   | Stack Arity |
 |--------|---------------|-------------|
