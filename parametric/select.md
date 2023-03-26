@@ -8,7 +8,7 @@ The `valtype` immediate is optional, so long as the result type (and type of the
 Otherwise, the `valtype` immediate declares the result type [^§2.4.4].
 
 $$
-\mathsf{select} \enspace \mathsf{valtype}(T_1)^? \enspace (a: T_1, b: T_1, c: \mathsf{i32}) \to \begin{cases}
+\mathsf{select} \enspace \mathsf{valtype}(T)^? \enspace (a: T, b: T, c: \mathsf{i32}) \to \begin{cases}
   a &\text{if } c \not = 0 \\
   b &\text{if } c = 0
 \end{cases}
@@ -21,7 +21,7 @@ $$
 | Opcode | Instruction | Immediates              | Stack Arity |
 |--------|-------------|-------------------------|-------------|
 | `0x1B` | `select`    | _none_                  | $[ \mathsf{numtype}_1, \mathsf{numtype}_1, \mathsf{i32} ] \to [ \mathsf{numtype}_1 ]$ |
-| `0x1C` | `select`    | $\mathsf{valtype}(T_1)$ | $[ T_1, T_1, \mathsf{i32} ] \to [ T_1 ]$ |
+| `0x1C` | `select`    | $\mathsf{valtype}(T)$ | $[ T, T, \mathsf{i32} ] \to [ T ]$ |
 
 
 

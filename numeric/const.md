@@ -6,8 +6,7 @@ Declares a numeric constant value (of type `i32`, `i64`, `f32`, or `f64`), placi
 There are four different opcodes, to indicate the type of the value [^§2.4.1]
 
 $$
-T_\mathsf{numtype} \enspace
-.\mathsf{const} \enspace
+T.\mathsf{const} \enspace
 const(T) \enspace ( \enspace ) \to T
 $$
 

@@ -3,7 +3,13 @@
 
 _todo_
 
+$$
+T.\mathsf{clz} \enspace ( value: T ) \to T
+$$
 
+
+
+## Instructions
 
 | Opcode | Instruction | Stack Arity |
 |--------|-------------|-----------|

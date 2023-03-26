@@ -6,29 +6,9 @@ Declares a vector constant value (of type `v128`), placing it on the stack [^§4
 $$
 \mathsf{v128.const} \enspace
 S_\mathsf{shape} \enspace
-const(\mathsf{v128}, S)
+const(\mathsf{v128})
 \enspace
 ( \enspace ) \to \mathsf{v128}
-
-\\
-\mathstrut
-\\
-
-const(\mathsf{v128}, S_{\mathsf{shape}}) = 
-\begin{cases}
-  [ const(\mathsf{i8})_1, const(\mathsf{i8})_2, ..., const(\mathsf{i8})_{16} ]
-    &\text{if } S = \text{i8x16} \\
-  [ const(\mathsf{i16})_1, const(\mathsf{i16})_2, ..., const(\mathsf{i16})_8 ]
-    &\text{if } S = \text{i16x8} \\
-  [ const(\mathsf{i32})_1, const(\mathsf{i32})_2, const(\mathsf{i32})_3, const(\mathsf{i32})_4 ]
-    &\text{if } S = \text{i32x4} \\
-  [ const(\mathsf{i64})_1, const(\mathsf{i64})_2 ]
-    &\text{if } S = \text{i64x2} \\
-  [ const(\mathsf{f32})_1, const(\mathsf{f32})_2, const(\mathsf{f32})_3, const(\mathsf{f32})_4 ]
-    &\text{if } S = \text{f32x4} \\
-  [ const(\mathsf{f64})_1, const(\mathsf{f64})_2 ]
-    &\text{if } S = \text{f64x2} \\
-\end{cases}
 $$
 
 

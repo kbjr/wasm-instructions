@@ -6,9 +6,7 @@ Loads a value from memory and places it on the stack [^§4.4.7-load].
 For integer types, there are additional opcodes to allow loading values smaller than result data type (e.g. placing an `i32` on the stack, but only populating it with 8 bits from memory) [^§2.4.7]; These also come in two forms each, to indicate whether the value read from memory should be interpretted as signed (and therefore be sign-extended) or unsigned [^§2.4.7].
 
 $$
-T_\mathsf{numtype}
-\enspace .\mathsf{load}
-\enspace N\_s^?
+T.\mathsf{load}N\_s^?
 \enspace \mathsf{offset}_\mathsf{i32}
 \enspace \mathsf{align}_\mathsf{i32}
 \enspace (ptr: \mathsf{i32}) \to T

@@ -4,12 +4,10 @@
 _todo_
 
 $$
-T_\mathsf{numtype}
-\enspace .\mathsf{store}
-\enspace N\_s^?
+T.\mathsf{store}N^?
 \enspace \mathsf{offset}_\mathsf{i32}
 \enspace \mathsf{align}_\mathsf{i32}
-\enspace (ptr: \mathsf{i32}, x: T) \to \varnothing
+\enspace (ptr: \mathsf{i32}, value: T) \to \varnothing
 $$
 
 
