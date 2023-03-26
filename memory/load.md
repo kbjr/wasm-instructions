@@ -8,8 +8,7 @@ For integer types, there are additional opcodes to allow loading values smaller 
 $$
 T_\mathsf{numtype}
 \enspace .\mathsf{load}
-% \enspace N\_s^?
-N\_s^?
+\enspace N\_s^?
 % \enspace \mathsf{memarg}
 \enspace \mathsf{offset}_\mathsf{i32}
 \enspace \mathsf{align}_\mathsf{i32}
