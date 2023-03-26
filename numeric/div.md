@@ -4,7 +4,7 @@
 _todo_
 
 $$
-T.\mathsf{div}\_s^? \enspace ( a: T, b: T ) \to (a \div b)_T
+T.\mathsf{div}\_s^? \enspace ( a: T, b: T ) \to a \div b
 $$
 
 

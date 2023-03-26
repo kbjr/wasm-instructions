@@ -4,7 +4,7 @@
 _todo_
 
 $$
-T.\mathsf{mul} \enspace ( a: T, b: T ) \to (a \times b)_T
+T.\mathsf{mul} \enspace ( a: T, b: T ) \to a \times b
 $$
 
 

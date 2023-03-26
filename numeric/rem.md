@@ -4,7 +4,7 @@
 _todo_
 
 $$
-T.\mathsf{rem}\_s \enspace ( a: T, b: T ) \to (a\mod b)_T
+T.\mathsf{rem}\_s \enspace ( a: T, b: T ) \to a\mod b
 $$
 
 
