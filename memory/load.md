@@ -7,7 +7,9 @@ $$
 T_\mathsf{numtype}
 \enspace .\mathsf{load}
 \enspace N\_s^?
-\enspace \mathsf{memarg}^?
+% \enspace \mathsf{memarg}
+\enspace \mathsf{align}_\mathsf{i32}
+\enspace \mathsf{offset}_\mathsf{i32}
 \enspace (ptr: \mathsf{i32}) \to T
 $$
 
