@@ -8,6 +8,21 @@ $$
 const_\mathsf{v128}
 \enspace
 ( \enspace ) \to \mathsf{v128}
+
+\\
+\mathstrut
+\\
+
+const_\mathsf{v128} ::=
+\begin{cases}
+\mathsf{i8x16} \enspace \mathsf{i8}_1, \mathsf{i8}_2, ..., \mathsf{i8}_{16} &or\\ 
+\mathsf{i16x8} \enspace \mathsf{i16}_1, \mathsf{i16}_2, ..., \mathsf{i16}_{8} &or\\
+\mathsf{i32x4} \enspace \mathsf{i32}_1, \mathsf{i32}_2, \mathsf{i32}_{3}, \mathsf{i32}_{4} &or\\
+\mathsf{i64x2} \enspace \mathsf{i64}_1, \mathsf{i64}_2 &or\\
+\mathsf{f32x4} \enspace \mathsf{f32}_1, \mathsf{f32}_2, \mathsf{f32}_{3}, \mathsf{f32}_{4} &or\\
+\mathsf{f64x2} \enspace \mathsf{f64}_1, \mathsf{f64}_2
+\end{cases}
+
 $$
 
 
